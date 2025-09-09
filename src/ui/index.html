@@ -132,14 +132,61 @@
             align-items: center;
         }
 
-        .affix-values input {
+                .affix-values input {
             width: 60px;
             padding: 5px;
             border: 1px solid rgba(255, 255, 255, 0.3);
             border-radius: 3px;
             background: rgba(255, 255, 255, 0.1);
-            color: #fff;
-            text-align: center;
+            color: white;
+            font-size: 12px;
+        }
+
+        /* Autocomplete Styles */
+        .autocomplete-container {
+            position: relative;
+        }
+
+        .autocomplete-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: rgba(30, 30, 30, 0.95);
+            border: 1px solid #444;
+            border-radius: 5px;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+            display: none;
+        }
+
+        .autocomplete-suggestion {
+            padding: 10px 15px;
+            cursor: pointer;
+            border-bottom: 1px solid #333;
+            transition: background-color 0.2s;
+        }
+
+        .autocomplete-suggestion:hover,
+        .autocomplete-suggestion.selected {
+            background-color: rgba(243, 156, 18, 0.2);
+        }
+
+        .autocomplete-suggestion:last-child {
+            border-bottom: none;
+        }
+
+        .suggestion-text {
+            color: #f39c12;
+            font-weight: bold;
+        }
+
+        .suggestion-type {
+            color: #aaa;
+            font-size: 12px;
+            margin-left: 10px;
         }
 
         .btn {
@@ -448,7 +495,10 @@
                 
                 <div class="form-group">
                     <label for="affixText">Adicionar Modificador:</label>
-                    <input type="text" id="affixText" placeholder="Ex: +# to maximum Life">
+                    <div class="autocomplete-container">
+                        <input type="text" id="affixText" placeholder="Ex: +# to maximum Life" autocomplete="off">
+                        <div class="autocomplete-suggestions" id="autocompleteSuggestions"></div>
+                    </div>
                 </div>
 
                 <div class="form-group">
@@ -495,6 +545,68 @@
         let baseItems = [];
         let leagues = [];
 
+        // Lista de modificadores comuns para autocomplete
+        const COMMON_MODIFIERS = [
+            // Vida e Defesas
+            { text: "+# to maximum Life", type: "Life", category: "Defense" },
+            { text: "+# to maximum Energy Shield", type: "Energy Shield", category: "Defense" },
+            { text: "+# to maximum Mana", type: "Mana", category: "Defense" },
+            { text: "+#% to all Elemental Resistances", type: "Resistances", category: "Defense" },
+            { text: "+#% to Fire Resistance", type: "Fire Resistance", category: "Defense" },
+            { text: "+#% to Cold Resistance", type: "Cold Resistance", category: "Defense" },
+            { text: "+#% to Lightning Resistance", type: "Lightning Resistance", category: "Defense" },
+            { text: "+#% to Chaos Resistance", type: "Chaos Resistance", category: "Defense" },
+            { text: "#% increased maximum Life", type: "Life %", category: "Defense" },
+            { text: "#% increased maximum Energy Shield", type: "Energy Shield %", category: "Defense" },
+
+            // Dano Físico
+            { text: "Adds # to # Physical Damage", type: "Physical Damage", category: "Damage" },
+            { text: "#% increased Physical Damage", type: "Physical Damage %", category: "Damage" },
+            { text: "Adds # to # Physical Damage to Attacks", type: "Physical Attack Damage", category: "Damage" },
+            { text: "Adds # to # Physical Damage to Spells", type: "Physical Spell Damage", category: "Damage" },
+
+            // Dano Elemental
+            { text: "Adds # to # Fire Damage", type: "Fire Damage", category: "Damage" },
+            { text: "Adds # to # Cold Damage", type: "Cold Damage", category: "Damage" },
+            { text: "Adds # to # Lightning Damage", type: "Lightning Damage", category: "Damage" },
+            { text: "Adds # to # Chaos Damage", type: "Chaos Damage", category: "Damage" },
+            { text: "Adds # to # Fire Damage to Attacks", type: "Fire Attack Damage", category: "Damage" },
+            { text: "Adds # to # Cold Damage to Attacks", type: "Cold Attack Damage", category: "Damage" },
+            { text: "Adds # to # Lightning Damage to Attacks", type: "Lightning Attack Damage", category: "Damage" },
+            { text: "Adds # to # Fire Damage to Spells", type: "Fire Spell Damage", category: "Damage" },
+            { text: "Adds # to # Cold Damage to Spells", type: "Cold Spell Damage", category: "Damage" },
+            { text: "Adds # to # Lightning Damage to Spells", type: "Lightning Spell Damage", category: "Damage" },
+
+            // Crítico
+            { text: "+#% to Global Critical Strike Multiplier", type: "Critical Multiplier", category: "Critical" },
+            { text: "#% increased Global Critical Strike Chance", type: "Critical Chance", category: "Critical" },
+            { text: "+# to Global Critical Strike Multiplier", type: "Critical Multiplier Flat", category: "Critical" },
+
+            // Velocidade de Ataque/Conjuração
+            { text: "#% increased Attack Speed", type: "Attack Speed", category: "Speed" },
+            { text: "#% increased Cast Speed", type: "Cast Speed", category: "Speed" },
+            { text: "#% increased Movement Speed", type: "Movement Speed", category: "Speed" },
+
+            // Atributos
+            { text: "+# to Strength", type: "Strength", category: "Attributes" },
+            { text: "+# to Dexterity", type: "Dexterity", category: "Attributes" },
+            { text: "+# to Intelligence", type: "Intelligence", category: "Attributes" },
+            { text: "+# to all Attributes", type: "All Attributes", category: "Attributes" },
+
+            // Mana/Recursos
+            { text: "#% increased Mana Regeneration Rate", type: "Mana Regeneration", category: "Resources" },
+            { text: "+# to maximum Mana", type: "Mana", category: "Resources" },
+            { text: "#% reduced Mana Cost of Skills", type: "Mana Cost", category: "Resources" },
+
+            // Armadura/Evasão
+            { text: "+# to Armour", type: "Armour", category: "Defense" },
+            { text: "+# to Evasion Rating", type: "Evasion", category: "Defense" },
+            { text: "#% increased Armour", type: "Armour %", category: "Defense" },
+            { text: "#% increased Evasion Rating", type: "Evasion %", category: "Defense" }
+        ];
+
+        let selectedSuggestionIndex = -1;
+
         // Inicialização
         document.addEventListener('DOMContentLoaded', async () => {
             await loadBaseItems();
@@ -502,7 +614,108 @@
             await loadCurrencies();
             checkServerHealth();
             await checkAuthenticationStatus();
+            setupAutocomplete();
         });
+
+        // Configuração do sistema de autocomplete
+        function setupAutocomplete() {
+            const input = document.getElementById('affixText');
+            const suggestionsContainer = document.getElementById('autocompleteSuggestions');
+
+            input.addEventListener('input', function() {
+                const query = this.value.trim().toLowerCase();
+                selectedSuggestionIndex = -1;
+                
+                if (query.length < 2) {
+                    hideSuggestions();
+                    return;
+                }
+
+                const filteredSuggestions = COMMON_MODIFIERS.filter(modifier => 
+                    modifier.text.toLowerCase().includes(query) || 
+                    modifier.type.toLowerCase().includes(query)
+                );
+
+                showSuggestions(filteredSuggestions);
+            });
+
+            input.addEventListener('keydown', function(e) {
+                const suggestions = suggestionsContainer.querySelectorAll('.autocomplete-suggestion');
+                
+                if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    selectedSuggestionIndex = Math.min(selectedSuggestionIndex + 1, suggestions.length - 1);
+                    updateSelectedSuggestion();
+                } else if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    selectedSuggestionIndex = Math.max(selectedSuggestionIndex - 1, -1);
+                    updateSelectedSuggestion();
+                } else if (e.key === 'Enter') {
+                    e.preventDefault();
+                    if (selectedSuggestionIndex >= 0 && suggestions[selectedSuggestionIndex]) {
+                        selectSuggestion(suggestions[selectedSuggestionIndex].dataset.text);
+                    } else {
+                        addAffix();
+                    }
+                } else if (e.key === 'Escape') {
+                    hideSuggestions();
+                }
+            });
+
+            input.addEventListener('blur', function() {
+                // Delay para permitir clique nas sugestões
+                setTimeout(() => hideSuggestions(), 200);
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.autocomplete-container')) {
+                    hideSuggestions();
+                }
+            });
+        }
+
+        function showSuggestions(suggestions) {
+            const container = document.getElementById('autocompleteSuggestions');
+            
+            if (suggestions.length === 0) {
+                hideSuggestions();
+                return;
+            }
+
+            container.innerHTML = suggestions.map(suggestion => `
+                <div class="autocomplete-suggestion" data-text="${suggestion.text}">
+                    <span class="suggestion-text">${suggestion.text}</span>
+                    <span class="suggestion-type">${suggestion.type} - ${suggestion.category}</span>
+                </div>
+            `).join('');
+
+            container.querySelectorAll('.autocomplete-suggestion').forEach(item => {
+                item.addEventListener('click', function() {
+                    selectSuggestion(this.dataset.text);
+                });
+            });
+
+            container.style.display = 'block';
+        }
+
+        function hideSuggestions() {
+            const container = document.getElementById('autocompleteSuggestions');
+            container.style.display = 'none';
+            selectedSuggestionIndex = -1;
+        }
+
+        function updateSelectedSuggestion() {
+            const suggestions = document.querySelectorAll('.autocomplete-suggestion');
+            suggestions.forEach((suggestion, index) => {
+                suggestion.classList.toggle('selected', index === selectedSuggestionIndex);
+            });
+        }
+
+        function selectSuggestion(text) {
+            document.getElementById('affixText').value = text;
+            hideSuggestions();
+            document.getElementById('minValue').focus();
+        }
 
         // Carrega itens base
         async function loadBaseItems() {
