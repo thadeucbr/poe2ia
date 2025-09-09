@@ -1,0 +1,120 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Gallows/Act4_Interlude/Part3/P3_2/master.tsi"
+  },
+  "edge_count": 0,
+  "edge_types": {},
+  "edges": [],
+  "master": {
+    "//OuterGroundType": "Metadata/Terrain/Islands/Tiles/Island/island_ocean.gt",
+    "//Overlays": "overlays.toy",
+    "//RoofFadeMode": "Tile",
+    "BlendMaskOverride": "Art/Textures/masks/TerrainMask01.dds",
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Decals": "decals.dct",
+    "DefaultKillZone": null,
+    "Doodads": "doodads.ddt",
+    "DungeonFillRoomHeightOverride": null,
+    "EdgeCombination": "combination.ecf",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OverrideMonsterSpawns": "Outdoor",
+    "RemoveOuterEdge": null,
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "UniqueMeshOverrideSet1": "2",
+    "version": null
+  },
+  "node_count": 2,
+  "nodes": [
+    {
+      "numbers": [],
+      "room": "graph",
+      "strings": [
+        "Metadata/Terrain/Gallows/Act4_Interlude/Part3/P3_2/Graphs/_Upper_AzmerianRanges_01.dgr",
+        "8",
+        "8"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 12
+    },
+    {
+      "numbers": [],
+      "room": "graph",
+      "strings": [
+        "Metadata/Terrain/Gallows/Act4_Interlude/Part3/P3_2/Graphs/_Lower_AzmerianRanges.dgr",
+        "8",
+        "8"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 12
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [
+    {
+      "file": "Metadata/Terrain/Gallows/Act4_Interlude/Part3/P3_2/Rooms/Ridge/ridge_cv_2_02.arm",
+      "prefix": [
+        "10"
+      ],
+      "suffix": []
+    }
+  ],
+  "size": [
+    16,
+    8
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [
+    {
+      "file": "Metadata/Terrain/Maps/AzmerianRanges/Tiles/Azmeri_WideRiver/WideRiverCliff_StMM_01.tdt",
+      "suffix": []
+    }
+  ],
+  "version": 25
+}

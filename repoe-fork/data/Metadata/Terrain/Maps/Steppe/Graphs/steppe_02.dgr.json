@@ -1,0 +1,433 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Maps/Steppe/master.tsi"
+  },
+  "edge_count": 6,
+  "edge_types": {
+    "IslandUnwalkableCliff": "IslandUnwalkableCliff #ff2d8130\nwildcard\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\n0 3 1 0 0 0\n"
+  },
+  "edges": [
+    {
+      "color": "#ff2d8130",
+      "edge_type": "IslandUnwalkableCliff",
+      "from": 1,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/island_unwalkable_cliff.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff2d8130",
+      "edge_type": "IslandUnwalkableCliff",
+      "from": 3,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/island_unwalkable_cliff.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff2d8130",
+      "edge_type": "IslandUnwalkableCliff",
+      "from": 1,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/island_unwalkable_cliff.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff2d8130",
+      "edge_type": "IslandUnwalkableCliff",
+      "from": 6,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/island_unwalkable_cliff.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff2d8130",
+      "edge_type": "IslandUnwalkableCliff",
+      "from": 2,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/island_unwalkable_cliff.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff2d8130",
+      "edge_type": "IslandUnwalkableCliff",
+      "from": 7,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/island_unwalkable_cliff.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "AllowInteriorOverlapFixes": null,
+    "BottomStoreyOverride": null,
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Decals": "decals.dct",
+    "DefaultKillZone": null,
+    "DisableDoors": null,
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "combination.ecf",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt",
+    "Overlays": "overlays.toy",
+    "OverrideMonsterSpawns": "Outdoor",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "TopStoreyOverride": null,
+    "version": null
+  },
+  "node_count": 10,
+  "nodes": [
+    {
+      "numbers": [],
+      "room": "entrance1",
+      "strings": [
+        "default"
+      ],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 34,
+      "y": 35
+    },
+    {
+      "numbers": [
+        0,
+        2
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 127
+    },
+    {
+      "numbers": [
+        4,
+        1
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 219,
+      "y": 196
+    },
+    {
+      "numbers": [
+        2,
+        1
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 196
+    },
+    {
+      "numbers": [
+        3,
+        0
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 11,
+      "y": 12
+    },
+    {
+      "numbers": [],
+      "room": "map_boss",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 58
+    },
+    {
+      "numbers": [
+        5,
+        3
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 150,
+      "y": 12
+    },
+    {
+      "numbers": [
+        5,
+        4
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 219,
+      "y": 58
+    },
+    {
+      "numbers": [],
+      "room": "checkpoint",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 173
+    },
+    {
+      "numbers": [],
+      "room": "checkpoint",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 104
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [],
+  "size": [
+    10,
+    9
+  ],
+  "strings": [
+    "Metadata/Terrain/Maps/Willow/GroundTypes/trims3.gt",
+    "",
+    "Metadata/Terrain/Maps/Willow/GroundTypes/trims1.gt"
+  ],
+  "tile_set": [],
+  "version": 25
+}

@@ -1,0 +1,713 @@
+{
+  "data": {
+    "MasterFile": "Metadata/Terrain/Maps/Caldera/master.tsi"
+  },
+  "edge_count": 17,
+  "edge_types": {
+    "IslandDeepwaterEdge": "IslandDeepwaterEdge #ff457aff\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\nMetadata/Terrain/Islands/Tiles/Island/island_ocean_deepwater.gt\n0 3 1",
+    "IslandGoblinTownEdge": "IslandGoblinTownEdge #ffffff00\nMetadata/Terrain/Islands/Tiles/Island/Volcano/Goblins/goblin_town.gt\nwildcard\n0 3 1",
+    "IslandShorelineOnePoint": "IslandShorelineOnePoint #1a4bc9ff\nwildcard\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\n0 3 1",
+    "IslandUnwalkableCliff": "IslandUnwalkableCliff #ff2d8130\nwildcard\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\n0 3 1 0 0 0\n",
+    "IslandUnwalkableCliffGoblins": "IslandUnwalkableCliffGoblins #ffff5c5c\nMetadata/Terrain/Islands/Tiles/Island/Volcano/Goblins/goblin_town.gt\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\n0 3 1",
+    "IslandUnwalkableCliffOcean": "IslandUnwalkableCliffOcean #ff666596\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\n0 3 1 0 0 0\n",
+    "VolcanoCraterLake": "VolcanoCraterLake #ff66b5f6\nMetadata/Terrain/Islands/Tiles/Island/Volcano/crater_lake.gt\nwildcard\n0 3 1"
+  },
+  "edges": [
+    {
+      "color": "#ffff5c5c",
+      "edge_type": "IslandUnwalkableCliffGoblins",
+      "from": 0,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/Volcano/Goblins/unwalkable_cliff_goblins.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ffff5c5c",
+      "edge_type": "IslandUnwalkableCliffGoblins",
+      "from": 3,
+      "path": [],
+      "to": 0,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/Volcano/Goblins/unwalkable_cliff_goblins.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#1a4bc9ff",
+      "edge_type": "IslandShorelineOnePoint",
+      "from": 12,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/ShoreLine/IslandShorelineOnePoint.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#1a4bc9ff",
+      "edge_type": "IslandShorelineOnePoint",
+      "from": 5,
+      "path": [],
+      "to": 1,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/ShoreLine/IslandShorelineOnePoint.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 5,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 7,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ff457aff",
+      "edge_type": "IslandDeepwaterEdge",
+      "from": 8,
+      "path": [],
+      "to": 9,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/ShoreLine/DeepwaterEdge/island_deepwater.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ff66b5f6",
+      "edge_type": "VolcanoCraterLake",
+      "from": 13,
+      "path": [],
+      "to": 11,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/Volcano/crater_lake.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ff66b5f6",
+      "edge_type": "VolcanoCraterLake",
+      "from": 11,
+      "path": [],
+      "to": 10,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/Volcano/crater_lake.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ff2d8130",
+      "edge_type": "IslandUnwalkableCliff",
+      "from": 16,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/island_unwalkable_cliff.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ff2d8130",
+      "edge_type": "IslandUnwalkableCliff",
+      "from": 14,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/island_unwalkable_cliff.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ffffff00",
+      "edge_type": "IslandGoblinTownEdge",
+      "from": 2,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/Volcano/Goblins/goblin_town_edge.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#1a4bc9ff",
+      "edge_type": "IslandShorelineOnePoint",
+      "from": 1,
+      "path": [],
+      "to": 12,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/ShoreLine/IslandShorelineOnePoint.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ff66b5f6",
+      "edge_type": "VolcanoCraterLake",
+      "from": 10,
+      "path": [],
+      "to": 13,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/Volcano/crater_lake.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ff2d8130",
+      "edge_type": "IslandUnwalkableCliff",
+      "from": 4,
+      "path": [],
+      "to": 14,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/island_unwalkable_cliff.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ff2d8130",
+      "edge_type": "IslandUnwalkableCliff",
+      "from": 2,
+      "path": [],
+      "to": 15,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/island_unwalkable_cliff.et",
+        0,
+        0
+      ]
+    },
+    {
+      "color": "#ff2d8130",
+      "edge_type": "IslandUnwalkableCliff",
+      "from": 15,
+      "path": [],
+      "to": 16,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliff/island_unwalkable_cliff.et",
+        0,
+        0
+      ]
+    }
+  ],
+  "master": {
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Doodads": "doodads.ddt",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/Island/island_ocean_deepwater.gt",
+    "Overlays": "overlays.toy",
+    "RoomSet": "generate.rs",
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 17,
+  "nodes": [
+    {
+      "numbers": [
+        1,
+        0
+      ],
+      "room": "map_boss",
+      "strings": [],
+      "transform": "R270",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 1415,
+      "y": 955
+    },
+    {
+      "numbers": [
+        12,
+        3
+      ],
+      "room": "entrance",
+      "strings": [
+        "default",
+        "killzone=8"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 265,
+      "y": 518
+    },
+    {
+      "numbers": [
+        11,
+        0,
+        15
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 1001,
+      "y": 1139
+    },
+    {
+      "numbers": [
+        10,
+        1,
+        11
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 1070,
+      "y": 587
+    },
+    {
+      "numbers": [
+        5,
+        14,
+        2
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 1070,
+      "y": 173
+    },
+    {
+      "numbers": [
+        3,
+        9,
+        4
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 104,
+      "y": 932
+    },
+    {
+      "numbers": [
+        4
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 12,
+      "y": 932
+    },
+    {
+      "numbers": [
+        5
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 1576,
+      "y": 173
+    },
+    {
+      "numbers": [
+        6
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 12,
+      "y": 35
+    },
+    {
+      "numbers": [
+        6
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 1576,
+      "y": 35
+    },
+    {
+      "numbers": [
+        13,
+        8
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 518,
+      "y": 863
+    },
+    {
+      "numbers": [
+        8,
+        7
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 656,
+      "y": 1208
+    },
+    {
+      "numbers": [
+        2,
+        12
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 794,
+      "y": 242
+    },
+    {
+      "numbers": [
+        7,
+        13
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 863,
+      "y": 449
+    },
+    {
+      "numbers": [
+        14,
+        10
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "x": 1208,
+      "y": 380
+    },
+    {
+      "numbers": [
+        16,
+        15
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 725,
+      "y": 1484
+    },
+    {
+      "numbers": [
+        9,
+        16
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "x": 242,
+      "y": 1346
+    }
+  ],
+  "room_set": [],
+  "size": [
+    69,
+    69
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [],
+  "version": 25
+}

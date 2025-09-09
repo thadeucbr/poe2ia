@@ -1,0 +1,301 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Gallows/Act4/4_13/master.tsi"
+  },
+  "edge_count": 5,
+  "edge_types": {
+    "AtollDuneToLagoonVirtual": "AtollDuneToLagoonVirtual\r\nMetadata/Terrain/Islands/Tiles/Island/ShoreLine/RockyLagoon/island_lagoon.gt\r\nMetadata/Terrain/Maps/Sandspit/Tiles/dune_fill.gt\r\n0 3 1\r\nvirtual\r\nMetadata/Terrain/Maps/Sandspit/Tiles/dune.et 0\r\nMetadata/Terrain/Islands/Tiles/Island/ShoreLine/RockyLagoon/island_lagoon.et 1\r\n40 120",
+    "AtollLagoonToOceanVirtual": "AtollLagoonToOceanVirtual\r\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\r\nMetadata/Terrain/Islands/Tiles/Island/ShoreLine/RockyLagoon/island_lagoon.gt\r\n0 3 1\r\nvirtual\r\nMetadata/Terrain/Islands/Tiles/Island/ShoreLine/RockyLagoon/island_lagoon.et 0\r\nMetadata/Terrain/Islands/Tiles/Island/ShoreLine/island_shore_line.et 1\r\n50 90",
+    "SandspitDuneToOceanVirtual": "SandspitDuneToOceanVirtual\r\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\r\nMetadata/Terrain/Maps/Sandspit/Tiles/dune_fill.gt\r\n0 3 1\r\nvirtual\r\nMetadata/Terrain/Maps/Sandspit/Tiles/dune.et 0\r\nMetadata/Terrain/Islands/Tiles/Island/ShoreLine/island_shore_line.et 1\r\n40 60"
+  },
+  "edges": [
+    {
+      "edge_type": "SandspitDuneToOceanVirtual",
+      "from": 0,
+      "path": [],
+      "to": 1,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Sandspit/Tiles/dune_to_ocean_virtual.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "SandspitDuneToOceanVirtual",
+      "from": 1,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Sandspit/Tiles/dune_to_ocean_virtual.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "AtollDuneToLagoonVirtual",
+      "from": 0,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/ShoreLine/RockyLagoon/AtollDuneLagoon.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "AtollLagoonToOceanVirtual",
+      "from": 0,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/ShoreLine/RockyLagoon/AtollLagoonOcean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "AtollLagoonToOceanVirtual",
+      "from": 3,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/ShoreLine/RockyLagoon/AtollLagoonOcean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "combination.ecf",
+    "EnvironmentSector": "G4_13_boat\" \"ShipEnvironment",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/Island/island_ocean.gt",
+    "Overlays": "overlays.toy",
+    "OverrideSpawns": "Outdoor",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 4,
+  "nodes": [
+    {
+      "numbers": [
+        3,
+        2,
+        0
+      ],
+      "room": "join1",
+      "strings": [
+        "shuffle1"
+      ],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 35,
+      "y": 35
+    },
+    {
+      "numbers": [
+        0,
+        1
+      ],
+      "room": "entrance",
+      "strings": [
+        "teleport1",
+        "telepad2"
+      ],
+      "transform": "FI",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 58
+    },
+    {
+      "numbers": [
+        4,
+        1,
+        2
+      ],
+      "room": "join2",
+      "strings": [
+        "shuffle1"
+      ],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 35
+    },
+    {
+      "numbers": [
+        4,
+        3
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 12
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_13/Rooms/entrance_01.arm",
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "R270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_13/Rooms/entrance_01_flip.arm",
+      "suffix": [
+        "FI",
+        "FR90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_13/Rooms/boat.arm",
+      "suffix": [
+        "I"
+      ]
+    }
+  ],
+  "size": [
+    6,
+    5
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [],
+  "version": 25
+}

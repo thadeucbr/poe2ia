@@ -1,0 +1,111 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Gallows/Act4/4_12/master.tsi"
+  },
+  "edge_count": 0,
+  "edge_types": {},
+  "edges": [],
+  "master": {
+    "FillTiles": "random_fill_tiles.gft",
+    "ForceOuterGT": null,
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/Island/island_ocean.gt",
+    "RoomOverlap": null,
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 2,
+  "nodes": [
+    {
+      "numbers": [],
+      "room": "graph",
+      "strings": [
+        "Metadata/Terrain/Gallows/Act4/4_12/Graphs/_interior_01.dgr",
+        "38",
+        "38"
+      ],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 12
+    },
+    {
+      "numbers": [],
+      "room": "graph",
+      "strings": [
+        "Metadata/Terrain/Gallows/Act4/4_12/Graphs/_precursor_island.dgr",
+        "30",
+        "38"
+      ],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 886,
+      "y": 12
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "size": [
+    68,
+    38
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/Precursor/ThickWall/Precursor_ThickWall_St_Corridor_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/Precursor/ThickWall/Precursor_ThickWall_St_Corridor_Downscreen_02.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R180",
+        "FR180"
+      ]
+    }
+  ],
+  "version": 25
+}

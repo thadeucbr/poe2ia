@@ -1,0 +1,2490 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Gallows/Act4/4_3_1/master.tsi"
+  },
+  "edge_count": 53,
+  "edge_types": {
+    "IslandUnwalkableCliffOcean": "IslandUnwalkableCliffOcean #ff666596\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\n0 3 1 0 0 0\n",
+    "TropicalShoreline": "TropicalShoreline #ff84ff4e\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\nMetadata/Terrain/Islands/Tiles/TropicalIsland/tropical_fill.gt\n0 3 1 0 0 0\n",
+    "TropicalUnwalkableCliffFill": "TropicalUnwalkableCliffFill #ff1c5512\nMetadata/Terrain/Islands/Tiles/TropicalIsland/tropical_fill.gt\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\n0 3 1 0 0 0\n",
+    "rooms": "rooms #FF5A5A5A\nwildcard\nwildcard\n0 1 0 0 1\n",
+    "void": "void #FF141414\nwildcard\nwildcard\n0 1 0\n"
+  },
+  "edges": [
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 3,
+      "path": [],
+      "to": 11,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 0,
+      "path": [],
+      "to": 1,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 26,
+      "path": [],
+      "to": 23,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 0,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 42,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff1c5512",
+      "edge_type": "TropicalUnwalkableCliffFill",
+      "from": 20,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TropicalIsland/tropical_unwalkable_cliff_fill.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 6,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 16,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 43,
+      "path": [],
+      "to": 8,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 2,
+      "path": [],
+      "to": 10,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 12,
+      "path": [],
+      "to": 10,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        100,
+        100,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff1c5512",
+      "edge_type": "TropicalUnwalkableCliffFill",
+      "from": 4,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TropicalIsland/tropical_unwalkable_cliff_fill.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 25,
+      "path": [],
+      "to": 11,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff1c5512",
+      "edge_type": "TropicalUnwalkableCliffFill",
+      "from": 15,
+      "path": [],
+      "to": 17,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TropicalIsland/tropical_unwalkable_cliff_fill.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 19,
+      "path": [],
+      "to": 14,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff1c5512",
+      "edge_type": "TropicalUnwalkableCliffFill",
+      "from": 28,
+      "path": [],
+      "to": 21,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TropicalIsland/tropical_unwalkable_cliff_fill.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff1c5512",
+      "edge_type": "TropicalUnwalkableCliffFill",
+      "from": 21,
+      "path": [],
+      "to": 8,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TropicalIsland/tropical_unwalkable_cliff_fill.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 30,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 29,
+      "path": [],
+      "to": 9,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 40,
+      "path": [],
+      "to": 15,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 1,
+      "path": [],
+      "to": 19,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff1c5512",
+      "edge_type": "TropicalUnwalkableCliffFill",
+      "from": 1,
+      "path": [],
+      "to": 20,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TropicalIsland/tropical_unwalkable_cliff_fill.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 18,
+      "path": [],
+      "to": 15,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 23,
+      "path": [],
+      "to": 16,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 38,
+      "path": [],
+      "to": 25,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff1c5512",
+      "edge_type": "TropicalUnwalkableCliffFill",
+      "from": 23,
+      "path": [],
+      "to": 24,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TropicalIsland/tropical_unwalkable_cliff_fill.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 32,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        100,
+        100,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 5,
+      "path": [],
+      "to": 26,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 26,
+      "path": [],
+      "to": 13,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 9,
+      "path": [],
+      "to": 27,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff1c5512",
+      "edge_type": "TropicalUnwalkableCliffFill",
+      "from": 9,
+      "path": [],
+      "to": 28,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TropicalIsland/tropical_unwalkable_cliff_fill.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 10,
+      "path": [],
+      "to": 29,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 29,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        100,
+        100,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 31,
+      "path": [],
+      "to": 30,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 14,
+      "path": [],
+      "to": 31,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 22,
+      "path": [],
+      "to": 32,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        100,
+        100,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 7,
+      "path": [],
+      "to": 33,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 33,
+      "path": [],
+      "to": 24,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 17,
+      "path": [],
+      "to": 34,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 34,
+      "path": [],
+      "to": 18,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 32,
+      "path": [],
+      "to": 25,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        100,
+        100,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 1,
+      "path": [],
+      "to": 12,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        100,
+        100,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 36,
+      "path": [],
+      "to": 37,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 23,
+      "path": [],
+      "to": 22,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        100,
+        100,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 39,
+      "path": [],
+      "to": 38,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 17,
+      "path": [],
+      "to": 39,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 15,
+      "path": [],
+      "to": 22,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        100,
+        100,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 24,
+      "path": [],
+      "to": 40,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 8,
+      "path": [],
+      "to": 41,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff84ff4e",
+      "edge_type": "TropicalShoreline",
+      "from": 41,
+      "path": [],
+      "to": 42,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/tropical_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 27,
+      "path": [],
+      "to": 43,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 12,
+      "path": [],
+      "to": 44,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        100,
+        100,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 44,
+      "path": [],
+      "to": 13,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "AllowInteriorOverlapFixes": null,
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Decals": "decals.dct",
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "combination.ecf",
+    "EnvironmentSector": "G4_3_1_boat\" \"ShipEnvironment",
+    "ExtendActivationDistance": "Client",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/Island/island_ocean.gt",
+    "Overlays": "overlays.toy",
+    "OverrideMonsterSpawns": "Outdoor",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 45,
+  "nodes": [
+    {
+      "numbers": [
+        3,
+        1
+      ],
+      "room": "entrance",
+      "strings": [
+        "teleport1",
+        "telepad2"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 12
+    },
+    {
+      "numbers": [
+        1,
+        41,
+        21,
+        20
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 173
+    },
+    {
+      "numbers": [
+        3,
+        9
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        50,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 127
+    },
+    {
+      "numbers": [
+        0,
+        26,
+        4
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "R180",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 311,
+      "y": 104
+    },
+    {
+      "numbers": [
+        5,
+        11
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 311
+    },
+    {
+      "numbers": [
+        32,
+        27,
+        6,
+        11
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 173,
+      "y": 311
+    },
+    {
+      "numbers": [
+        6,
+        17
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 173,
+      "y": 334
+    },
+    {
+      "numbers": [
+        36,
+        7
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 426,
+      "y": 380
+    },
+    {
+      "numbers": [
+        48,
+        16,
+        8
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 265,
+      "y": 127
+    },
+    {
+      "numbers": [
+        29,
+        30,
+        18
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 173,
+      "y": 150
+    },
+    {
+      "numbers": [
+        9,
+        31,
+        10
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 150
+    },
+    {
+      "numbers": [
+        12,
+        0
+      ],
+      "room": "exit",
+      "strings": [
+        "entrance2"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 357,
+      "y": 58
+    },
+    {
+      "numbers": [
+        41,
+        10,
+        51
+      ],
+      "room": "settlement3",
+      "strings": [
+        "shuffle1"
+      ],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 196
+    },
+    {
+      "numbers": [
+        52,
+        28
+      ],
+      "room": "settlement2",
+      "strings": [
+        "shuffle1"
+      ],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 219
+    },
+    {
+      "numbers": [
+        14,
+        34
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 35,
+      "y": 311
+    },
+    {
+      "numbers": [
+        46,
+        13,
+        22,
+        19
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 380,
+      "y": 265
+    },
+    {
+      "numbers": [
+        23,
+        7
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 265,
+      "y": 380
+    },
+    {
+      "numbers": [
+        45,
+        38,
+        13
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 380,
+      "y": 196
+    },
+    {
+      "numbers": [
+        39,
+        22
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 403,
+      "y": 265
+    },
+    {
+      "numbers": [
+        20,
+        14
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 35,
+      "y": 173
+    },
+    {
+      "numbers": [
+        21,
+        5
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 265
+    },
+    {
+      "numbers": [
+        16,
+        15
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 265,
+      "y": 173
+    },
+    {
+      "numbers": [
+        35,
+        46,
+        43
+      ],
+      "room": "settlement1",
+      "strings": [
+        "shuffle1"
+      ],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 288,
+      "y": 196
+    },
+    {
+      "numbers": [
+        43,
+        25,
+        23,
+        2
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 265,
+      "y": 311
+    },
+    {
+      "numbers": [
+        47,
+        37,
+        25
+      ],
+      "room": "CrabCave",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 357,
+      "y": 311
+    },
+    {
+      "numbers": [
+        12,
+        24,
+        40
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 357,
+      "y": 127
+    },
+    {
+      "numbers": [
+        28,
+        2,
+        27
+      ],
+      "room": "boss",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 311
+    },
+    {
+      "numbers": [
+        50,
+        29
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 150
+    },
+    {
+      "numbers": [
+        30,
+        15
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 173,
+      "y": 173
+    },
+    {
+      "numbers": [
+        18,
+        32,
+        31
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 150,
+      "y": 150
+    },
+    {
+      "numbers": [
+        33,
+        17
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 334
+    },
+    {
+      "numbers": [
+        33,
+        34
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 311
+    },
+    {
+      "numbers": [
+        26,
+        40,
+        35
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        1
+      ],
+      "x": 288,
+      "y": 150
+    },
+    {
+      "numbers": [
+        36,
+        37
+      ],
+      "room": "",
+      "strings": [
+        "teleport3disabled-Arena",
+        "telepad3"
+      ],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 426,
+      "y": 311
+    },
+    {
+      "numbers": [
+        39,
+        38
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 403,
+      "y": 196
+    },
+    {
+      "numbers": [],
+      "room": "buffer",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 12
+    },
+    {
+      "numbers": [
+        42
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 265,
+      "y": 196
+    },
+    {
+      "numbers": [
+        42
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 265,
+      "y": 242
+    },
+    {
+      "numbers": [
+        24,
+        44
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 357,
+      "y": 150
+    },
+    {
+      "numbers": [
+        45,
+        44
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 380,
+      "y": 150
+    },
+    {
+      "numbers": [
+        19,
+        47
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 380,
+      "y": 288
+    },
+    {
+      "numbers": [
+        49,
+        48
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 288,
+      "y": 127
+    },
+    {
+      "numbers": [
+        4,
+        49
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 288,
+      "y": 104
+    },
+    {
+      "numbers": [
+        8,
+        50
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 127
+    },
+    {
+      "numbers": [
+        52,
+        51
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 173,
+      "y": 196
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/Unique/entrance_01.arm",
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "R270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/Unique/entrance_02.arm",
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "R270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/Unique/entrance_03.arm",
+      "suffix": [
+        "FI",
+        "FR90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/Unique/entrance_04.arm",
+      "suffix": [
+        "FI",
+        "FR90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_3_1/Rooms/Unique/boat_01.arm",
+      "suffix": [
+        "I"
+      ]
+    }
+  ],
+  "size": [
+    23,
+    18
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TropicalIsland/TropicalCliff/TropicalCliff_groundfill_01.tdt",
+      "suffix": []
+    }
+  ],
+  "version": 25
+}

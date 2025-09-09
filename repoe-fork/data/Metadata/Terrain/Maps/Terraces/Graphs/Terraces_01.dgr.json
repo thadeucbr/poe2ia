@@ -1,0 +1,713 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Maps/Terraces/master.tsi"
+  },
+  "edge_count": 13,
+  "edge_types": {
+    "TerraceAbyssCliff": "TerraceAbyssCliff #ff6e74aa\nMetadata/Terrain/Maps/Terraces/Tiles/TerraceAbyss.gt\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\n0 3 1 0 0 0\n",
+    "TerraceLowerRooms": "TerraceLowerRooms\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\n2 3 1",
+    "TerraceUpperRooms": "TerraceUpperRooms\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\n2 3 1",
+    "rooms": "rooms #FF5A5A5A\nwildcard\nwildcard\n0 1 0 0 1\n"
+  },
+  "edges": [
+    {
+      "edge_type": "TerraceLowerRooms",
+      "from": 1,
+      "path": [],
+      "to": 10,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Terraces/Graphs/terrace_lower_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TerraceLowerRooms",
+      "from": 10,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Terraces/Graphs/terrace_lower_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TerraceLowerRooms",
+      "from": 2,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Terraces/Graphs/terrace_lower_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 7,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 1,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TerraceUpperRooms",
+      "from": 3,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Terraces/Graphs/terrace_upper_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TerraceUpperRooms",
+      "from": 9,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Terraces/Graphs/terrace_upper_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TerraceUpperRooms",
+      "from": 5,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Terraces/Graphs/terrace_upper_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TerraceUpperRooms",
+      "from": 0,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Maps/Terraces/Graphs/terrace_upper_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TerraceLowerRooms",
+      "from": 7,
+      "path": [],
+      "to": 8,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Terraces/Graphs/terrace_lower_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TerraceUpperRooms",
+      "from": 4,
+      "path": [],
+      "to": 9,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Terraces/Graphs/terrace_upper_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff6e74aa",
+      "edge_type": "TerraceAbyssCliff",
+      "from": 11,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Terraces/Tiles/TerraceAbyssCliff.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TerraceLowerRooms",
+      "from": 3,
+      "path": [],
+      "to": 1,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Terraces/Graphs/terrace_lower_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "BlendMaskOverride": "Art/Textures/masks/TerrainMask01.dds",
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Decals": "decals.dct",
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "combination.ecf",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 15,
+  "nodes": [
+    {
+      "numbers": [
+        8
+      ],
+      "room": "entrance",
+      "strings": [
+        "default"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 35
+    },
+    {
+      "numbers": [
+        0,
+        12,
+        4
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 104
+    },
+    {
+      "numbers": [
+        2,
+        1
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 58
+    },
+    {
+      "numbers": [
+        5,
+        12,
+        11
+      ],
+      "room": "arena",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 127
+    },
+    {
+      "numbers": [
+        10,
+        4,
+        5
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 104
+    },
+    {
+      "numbers": [
+        7,
+        6
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 35,
+      "y": 81
+    },
+    {
+      "numbers": [
+        3,
+        7,
+        8
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 35,
+      "y": 35
+    },
+    {
+      "numbers": [
+        9,
+        2,
+        3
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 35
+    },
+    {
+      "numbers": [
+        9
+      ],
+      "room": "end",
+      "strings": [],
+      "transform": "R90",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 12
+    },
+    {
+      "numbers": [
+        10,
+        6
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 81
+    },
+    {
+      "numbers": [
+        0,
+        1
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 58
+    },
+    {
+      "numbers": [
+        11
+      ],
+      "room": "end",
+      "strings": [],
+      "transform": "FR90",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 150
+    },
+    {
+      "numbers": [],
+      "room": "void_cliff",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 35,
+      "y": 12
+    },
+    {
+      "numbers": [],
+      "room": "void_cliff",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 12
+    },
+    {
+      "numbers": [],
+      "room": "void_cliff",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 150
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [],
+  "size": [
+    7,
+    7
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [],
+  "version": 25
+}

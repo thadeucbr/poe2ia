@@ -1,0 +1,67 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/WorldMaps/Act6/master.tsi"
+  },
+  "edge_count": 0,
+  "edge_types": {},
+  "edges": [],
+  "master": {
+    "DoNotFillOutside": null,
+    "EdgeCombination": "combination.ecf",
+    "FillTiles": "fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/WorldMaps/Act1/Tiles/world_map_forest.gt",
+    "Overlays": "overlays.toy",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 1,
+  "nodes": [
+    {
+      "numbers": [],
+      "room": "Interlude",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 12
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [],
+  "size": [
+    15,
+    15
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [],
+  "version": 25
+}

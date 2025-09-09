@@ -1,0 +1,278 @@
+[
+  {
+    "English": [
+      {
+        "condition": [
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "Culling a monster grants {2} [Charges|Power Charge]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charge]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charge]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charges]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charge]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charge]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charge]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charge]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charge]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charges]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charge]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charge]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charges]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "[Rarity|Normal and Magic] monsters grant {0} [Charges|Power Charges]\n[Rarity|Rare] monsters grant {1} [Charges|Power Charges]\n[Rarity|Unique] monsters grant {2} [Charges|Power Charges]",
+        "reminder_text": null,
+        "is_markup": null
+      }
+    ],
+    "ids": [
+      "skill_grant_X_power_charges_against_normal_and_magic_monsters",
+      "skill_grant_X_power_charges_against_rare_monsters",
+      "skill_grant_X_power_charges_against_unique_monsters"
+    ],
+    "trade_stats": null,
+    "hidden": null,
+    "French": null,
+    "German": null,
+    "Japanese": null,
+    "Korean": null,
+    "Portuguese": null,
+    "Russian": null,
+    "Spanish": null,
+    "Thai": null,
+    "Traditional_Chinese": null
+  }
+]

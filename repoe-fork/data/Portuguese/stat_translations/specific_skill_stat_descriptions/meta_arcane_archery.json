@@ -1,0 +1,60 @@
+[
+  {
+    "English": null,
+    "ids": [
+      "arcane_archery_gain_X_centienergy_per_10_mana_cost_of_ranged_attack"
+    ],
+    "trade_stats": null,
+    "hidden": null,
+    "French": null,
+    "German": null,
+    "Japanese": null,
+    "Korean": null,
+    "Portuguese": [
+      {
+        "condition": [
+          {
+            "min": 1,
+            "max": null,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "divide_by_one_hundred_2dp_if_required"
+          ]
+        ],
+        "string": "[DNT] [Energy] gained per ten Mana spent on ranged [Attack|Attacks]@{0}",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": 1,
+            "max": null,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#"
+        ],
+        "index_handlers": [
+          [
+            "divide_by_one_hundred_2dp_if_required"
+          ]
+        ],
+        "string": "[DNT] Gains {0} [Energy] per ten Mana spent on ranged [Attack|Attacks]",
+        "reminder_text": null,
+        "is_markup": null
+      }
+    ],
+    "Russian": null,
+    "Spanish": null,
+    "Thai": null,
+    "Traditional_Chinese": null
+  }
+]

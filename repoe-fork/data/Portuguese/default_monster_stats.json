@@ -1,0 +1,902 @@
+{
+  "1": {
+    "accuracy": 26,
+    "ally_life": 51,
+    "armour": 3,
+    "evasion": 24,
+    "life": 15,
+    "experience": 17,
+    "physical_damage": 9.15999984741211
+  },
+  "2": {
+    "accuracy": 31,
+    "ally_life": 83,
+    "armour": 6,
+    "evasion": 30,
+    "life": 20,
+    "experience": 18,
+    "physical_damage": 10.260000228881836
+  },
+  "3": {
+    "accuracy": 36,
+    "ally_life": 116,
+    "armour": 8,
+    "evasion": 36,
+    "life": 24,
+    "experience": 20,
+    "physical_damage": 11.390000343322754
+  },
+  "4": {
+    "accuracy": 41,
+    "ally_life": 150,
+    "armour": 10,
+    "evasion": 43,
+    "life": 28,
+    "experience": 24,
+    "physical_damage": 12.569999694824219
+  },
+  "5": {
+    "accuracy": 46,
+    "ally_life": 186,
+    "armour": 13,
+    "evasion": 49,
+    "life": 33,
+    "experience": 31,
+    "physical_damage": 13.779999732971191
+  },
+  "6": {
+    "accuracy": 51,
+    "ally_life": 223,
+    "armour": 16,
+    "evasion": 56,
+    "life": 38,
+    "experience": 43,
+    "physical_damage": 15.029999732971191
+  },
+  "7": {
+    "accuracy": 57,
+    "ally_life": 261,
+    "armour": 19,
+    "evasion": 63,
+    "life": 45,
+    "experience": 57,
+    "physical_damage": 16.31999969482422
+  },
+  "8": {
+    "accuracy": 62,
+    "ally_life": 300,
+    "armour": 22,
+    "evasion": 70,
+    "life": 50,
+    "experience": 75,
+    "physical_damage": 17.649999618530273
+  },
+  "9": {
+    "accuracy": 68,
+    "ally_life": 341,
+    "armour": 26,
+    "evasion": 77,
+    "life": 58,
+    "experience": 96,
+    "physical_damage": 19.020000457763672
+  },
+  "10": {
+    "accuracy": 75,
+    "ally_life": 382,
+    "armour": 30,
+    "evasion": 84,
+    "life": 67,
+    "experience": 120,
+    "physical_damage": 20.440000534057617
+  },
+  "11": {
+    "accuracy": 81,
+    "ally_life": 426,
+    "armour": 34,
+    "evasion": 91,
+    "life": 78,
+    "experience": 150,
+    "physical_damage": 21.899999618530273
+  },
+  "12": {
+    "accuracy": 88,
+    "ally_life": 471,
+    "armour": 39,
+    "evasion": 98,
+    "life": 89,
+    "experience": 181,
+    "physical_damage": 23.40999984741211
+  },
+  "13": {
+    "accuracy": 95,
+    "ally_life": 517,
+    "armour": 43,
+    "evasion": 105,
+    "life": 103,
+    "experience": 219,
+    "physical_damage": 24.969999313354492
+  },
+  "14": {
+    "accuracy": 102,
+    "ally_life": 565,
+    "armour": 49,
+    "evasion": 113,
+    "life": 118,
+    "experience": 261,
+    "physical_damage": 26.56999969482422
+  },
+  "15": {
+    "accuracy": 109,
+    "ally_life": 614,
+    "armour": 54,
+    "evasion": 120,
+    "life": 134,
+    "experience": 308,
+    "physical_damage": 28.229999542236328
+  },
+  "16": {
+    "accuracy": 117,
+    "ally_life": 665,
+    "armour": 60,
+    "evasion": 128,
+    "life": 158,
+    "experience": 358,
+    "physical_damage": 29.93000030517578
+  },
+  "17": {
+    "accuracy": 125,
+    "ally_life": 718,
+    "armour": 67,
+    "evasion": 136,
+    "life": 178,
+    "experience": 416,
+    "physical_damage": 31.690000534057617
+  },
+  "18": {
+    "accuracy": 134,
+    "ally_life": 772,
+    "armour": 73,
+    "evasion": 144,
+    "life": 200,
+    "experience": 482,
+    "physical_damage": 33.5
+  },
+  "19": {
+    "accuracy": 142,
+    "ally_life": 828,
+    "armour": 81,
+    "evasion": 152,
+    "life": 224,
+    "experience": 549,
+    "physical_damage": 35.369998931884766
+  },
+  "20": {
+    "accuracy": 151,
+    "ally_life": 886,
+    "armour": 89,
+    "evasion": 160,
+    "life": 249,
+    "experience": 623,
+    "physical_damage": 37.290000915527344
+  },
+  "21": {
+    "accuracy": 161,
+    "ally_life": 945,
+    "armour": 97,
+    "evasion": 168,
+    "life": 276,
+    "experience": 704,
+    "physical_damage": 39.27000045776367
+  },
+  "22": {
+    "accuracy": 170,
+    "ally_life": 1007,
+    "armour": 106,
+    "evasion": 176,
+    "life": 305,
+    "experience": 796,
+    "physical_damage": 41.310001373291016
+  },
+  "23": {
+    "accuracy": 180,
+    "ally_life": 1070,
+    "armour": 116,
+    "evasion": 185,
+    "life": 335,
+    "experience": 881,
+    "physical_damage": 43.40999984741211
+  },
+  "24": {
+    "accuracy": 191,
+    "ally_life": 1135,
+    "armour": 126,
+    "evasion": 193,
+    "life": 366,
+    "experience": 968,
+    "physical_damage": 45.56999969482422
+  },
+  "25": {
+    "accuracy": 202,
+    "ally_life": 1203,
+    "armour": 137,
+    "evasion": 202,
+    "life": 400,
+    "experience": 1058,
+    "physical_damage": 47.79999923706055
+  },
+  "26": {
+    "accuracy": 213,
+    "ally_life": 1272,
+    "armour": 149,
+    "evasion": 211,
+    "life": 434,
+    "experience": 1153,
+    "physical_damage": 50.09000015258789
+  },
+  "27": {
+    "accuracy": 224,
+    "ally_life": 1344,
+    "armour": 161,
+    "evasion": 220,
+    "life": 472,
+    "experience": 1252,
+    "physical_damage": 52.45000076293945
+  },
+  "28": {
+    "accuracy": 236,
+    "ally_life": 1417,
+    "armour": 174,
+    "evasion": 229,
+    "life": 510,
+    "experience": 1407,
+    "physical_damage": 54.880001068115234
+  },
+  "29": {
+    "accuracy": 248,
+    "ally_life": 1493,
+    "armour": 189,
+    "evasion": 238,
+    "life": 551,
+    "experience": 1573,
+    "physical_damage": 57.369998931884766
+  },
+  "30": {
+    "accuracy": 261,
+    "ally_life": 1571,
+    "armour": 204,
+    "evasion": 247,
+    "life": 593,
+    "experience": 1750,
+    "physical_damage": 59.939998626708984
+  },
+  "31": {
+    "accuracy": 274,
+    "ally_life": 1652,
+    "armour": 220,
+    "evasion": 257,
+    "life": 637,
+    "experience": 1941,
+    "physical_damage": 62.59000015258789
+  },
+  "32": {
+    "accuracy": 288,
+    "ally_life": 1734,
+    "armour": 237,
+    "evasion": 266,
+    "life": 683,
+    "experience": 2142,
+    "physical_damage": 65.30999755859375
+  },
+  "33": {
+    "accuracy": 302,
+    "ally_life": 1820,
+    "armour": 255,
+    "evasion": 276,
+    "life": 731,
+    "experience": 2361,
+    "physical_damage": 68.0999984741211
+  },
+  "34": {
+    "accuracy": 317,
+    "ally_life": 1907,
+    "armour": 274,
+    "evasion": 286,
+    "life": 790,
+    "experience": 2587,
+    "physical_damage": 70.9800033569336
+  },
+  "35": {
+    "accuracy": 332,
+    "ally_life": 1998,
+    "armour": 295,
+    "evasion": 296,
+    "life": 853,
+    "experience": 2831,
+    "physical_damage": 73.94000244140625
+  },
+  "36": {
+    "accuracy": 348,
+    "ally_life": 2091,
+    "armour": 317,
+    "evasion": 306,
+    "life": 921,
+    "experience": 3092,
+    "physical_damage": 76.9800033569336
+  },
+  "37": {
+    "accuracy": 364,
+    "ally_life": 2186,
+    "armour": 340,
+    "evasion": 316,
+    "life": 995,
+    "experience": 3360,
+    "physical_damage": 80.11000061035156
+  },
+  "38": {
+    "accuracy": 380,
+    "ally_life": 2285,
+    "armour": 364,
+    "evasion": 326,
+    "life": 1074,
+    "experience": 3646,
+    "physical_damage": 83.31999969482422
+  },
+  "39": {
+    "accuracy": 398,
+    "ally_life": 2386,
+    "armour": 391,
+    "evasion": 337,
+    "life": 1160,
+    "experience": 3958,
+    "physical_damage": 86.62999725341797
+  },
+  "40": {
+    "accuracy": 416,
+    "ally_life": 2490,
+    "armour": 418,
+    "evasion": 347,
+    "life": 1253,
+    "experience": 4259,
+    "physical_damage": 90.0199966430664
+  },
+  "41": {
+    "accuracy": 434,
+    "ally_life": 2598,
+    "armour": 448,
+    "evasion": 358,
+    "life": 1353,
+    "experience": 4586,
+    "physical_damage": 93.51000213623047
+  },
+  "42": {
+    "accuracy": 453,
+    "ally_life": 2708,
+    "armour": 479,
+    "evasion": 369,
+    "life": 1462,
+    "experience": 4940,
+    "physical_damage": 97.0999984741211
+  },
+  "43": {
+    "accuracy": 473,
+    "ally_life": 2821,
+    "armour": 512,
+    "evasion": 380,
+    "life": 1578,
+    "experience": 5279,
+    "physical_damage": 100.79000091552734
+  },
+  "44": {
+    "accuracy": 493,
+    "ally_life": 2938,
+    "armour": 547,
+    "evasion": 391,
+    "life": 1705,
+    "experience": 5652,
+    "physical_damage": 104.56999969482422
+  },
+  "45": {
+    "accuracy": 514,
+    "ally_life": 3058,
+    "armour": 585,
+    "evasion": 403,
+    "life": 1841,
+    "experience": 6045,
+    "physical_damage": 108.45999908447266
+  },
+  "46": {
+    "accuracy": 536,
+    "ally_life": 3181,
+    "armour": 624,
+    "evasion": 414,
+    "life": 1967,
+    "experience": 6466,
+    "physical_damage": 112.45999908447266
+  },
+  "47": {
+    "accuracy": 558,
+    "ally_life": 3307,
+    "armour": 666,
+    "evasion": 426,
+    "life": 2101,
+    "experience": 6909,
+    "physical_damage": 116.56999969482422
+  },
+  "48": {
+    "accuracy": 581,
+    "ally_life": 3438,
+    "armour": 711,
+    "evasion": 438,
+    "life": 2244,
+    "experience": 7390,
+    "physical_damage": 120.77999877929688
+  },
+  "49": {
+    "accuracy": 605,
+    "ally_life": 3571,
+    "armour": 758,
+    "evasion": 449,
+    "life": 2395,
+    "experience": 7894,
+    "physical_damage": 125.12000274658203
+  },
+  "50": {
+    "accuracy": 629,
+    "ally_life": 3709,
+    "armour": 808,
+    "evasion": 462,
+    "life": 2556,
+    "experience": 8439,
+    "physical_damage": 129.55999755859375
+  },
+  "51": {
+    "accuracy": 655,
+    "ally_life": 3850,
+    "armour": 861,
+    "evasion": 474,
+    "life": 2726,
+    "experience": 9018,
+    "physical_damage": 134.1300048828125
+  },
+  "52": {
+    "accuracy": 681,
+    "ally_life": 3995,
+    "armour": 917,
+    "evasion": 486,
+    "life": 2909,
+    "experience": 9641,
+    "physical_damage": 138.82000732421875
+  },
+  "53": {
+    "accuracy": 708,
+    "ally_life": 4144,
+    "armour": 976,
+    "evasion": 499,
+    "life": 3102,
+    "experience": 10300,
+    "physical_damage": 143.63999938964844
+  },
+  "54": {
+    "accuracy": 736,
+    "ally_life": 4298,
+    "armour": 1039,
+    "evasion": 511,
+    "life": 3307,
+    "experience": 10997,
+    "physical_damage": 148.5800018310547
+  },
+  "55": {
+    "accuracy": 765,
+    "ally_life": 4455,
+    "armour": 1105,
+    "evasion": 524,
+    "life": 3525,
+    "experience": 11751,
+    "physical_damage": 153.66000366210938
+  },
+  "56": {
+    "accuracy": 794,
+    "ally_life": 4617,
+    "armour": 1176,
+    "evasion": 537,
+    "life": 3756,
+    "experience": 12546,
+    "physical_damage": 158.8699951171875
+  },
+  "57": {
+    "accuracy": 825,
+    "ally_life": 4783,
+    "armour": 1250,
+    "evasion": 551,
+    "life": 4002,
+    "experience": 13393,
+    "physical_damage": 164.2100067138672
+  },
+  "58": {
+    "accuracy": 856,
+    "ally_life": 4953,
+    "armour": 1329,
+    "evasion": 564,
+    "life": 4264,
+    "experience": 14302,
+    "physical_damage": 169.6999969482422
+  },
+  "59": {
+    "accuracy": 889,
+    "ally_life": 5128,
+    "armour": 1412,
+    "evasion": 578,
+    "life": 4540,
+    "experience": 15267,
+    "physical_damage": 175.33999633789062
+  },
+  "60": {
+    "accuracy": 923,
+    "ally_life": 5308,
+    "armour": 1500,
+    "evasion": 591,
+    "life": 4834,
+    "experience": 16300,
+    "physical_damage": 181.1199951171875
+  },
+  "61": {
+    "accuracy": 957,
+    "ally_life": 5493,
+    "armour": 1594,
+    "evasion": 605,
+    "life": 5147,
+    "experience": 17402,
+    "physical_damage": 187.0500030517578
+  },
+  "62": {
+    "accuracy": 993,
+    "ally_life": 5682,
+    "armour": 1692,
+    "evasion": 619,
+    "life": 5478,
+    "experience": 18576,
+    "physical_damage": 193.13999938964844
+  },
+  "63": {
+    "accuracy": 1030,
+    "ally_life": 5877,
+    "armour": 1796,
+    "evasion": 634,
+    "life": 5829,
+    "experience": 19825,
+    "physical_damage": 199.3800048828125
+  },
+  "64": {
+    "accuracy": 1068,
+    "ally_life": 6077,
+    "armour": 1906,
+    "evasion": 648,
+    "life": 6203,
+    "experience": 21161,
+    "physical_damage": 205.7899932861328
+  },
+  "65": {
+    "accuracy": 1107,
+    "ally_life": 6282,
+    "armour": 2023,
+    "evasion": 663,
+    "life": 6513,
+    "experience": 21507,
+    "physical_damage": 212.36000061035156
+  },
+  "66": {
+    "accuracy": 1147,
+    "ally_life": 6492,
+    "armour": 2146,
+    "evasion": 677,
+    "life": 6904,
+    "experience": 23667,
+    "physical_damage": 219.11000061035156
+  },
+  "67": {
+    "accuracy": 1189,
+    "ally_life": 6708,
+    "armour": 2276,
+    "evasion": 692,
+    "life": 7318,
+    "experience": 26020,
+    "physical_damage": 226.02999877929688
+  },
+  "68": {
+    "accuracy": 1232,
+    "ally_life": 6930,
+    "armour": 2413,
+    "evasion": 708,
+    "life": 7757,
+    "experience": 28634,
+    "physical_damage": 233.1199951171875
+  },
+  "69": {
+    "accuracy": 1276,
+    "ally_life": 7157,
+    "armour": 2558,
+    "evasion": 723,
+    "life": 8222,
+    "experience": 31491,
+    "physical_damage": 240.39999389648438
+  },
+  "70": {
+    "accuracy": 1321,
+    "ally_life": 7391,
+    "armour": 2712,
+    "evasion": 738,
+    "life": 8716,
+    "experience": 34639,
+    "physical_damage": 247.86000061035156
+  },
+  "71": {
+    "accuracy": 1368,
+    "ally_life": 7630,
+    "armour": 2874,
+    "evasion": 754,
+    "life": 9239,
+    "experience": 38100,
+    "physical_damage": 255.52000427246094
+  },
+  "72": {
+    "accuracy": 1416,
+    "ally_life": 7876,
+    "armour": 3044,
+    "evasion": 770,
+    "life": 9793,
+    "experience": 41931,
+    "physical_damage": 263.3699951171875
+  },
+  "73": {
+    "accuracy": 1466,
+    "ally_life": 8128,
+    "armour": 3225,
+    "evasion": 786,
+    "life": 10381,
+    "experience": 46103,
+    "physical_damage": 271.4200134277344
+  },
+  "74": {
+    "accuracy": 1517,
+    "ally_life": 8387,
+    "armour": 3416,
+    "evasion": 803,
+    "life": 11003,
+    "experience": 50688,
+    "physical_damage": 279.67999267578125
+  },
+  "75": {
+    "accuracy": 1570,
+    "ally_life": 8652,
+    "armour": 3617,
+    "evasion": 819,
+    "life": 11664,
+    "experience": 55765,
+    "physical_damage": 288.1400146484375
+  },
+  "76": {
+    "accuracy": 1625,
+    "ally_life": 8924,
+    "armour": 3829,
+    "evasion": 836,
+    "life": 12363,
+    "experience": 61373,
+    "physical_damage": 296.82000732421875
+  },
+  "77": {
+    "accuracy": 1681,
+    "ally_life": 9203,
+    "armour": 4053,
+    "evasion": 853,
+    "life": 13105,
+    "experience": 67522,
+    "physical_damage": 305.7200012207031
+  },
+  "78": {
+    "accuracy": 1738,
+    "ally_life": 9489,
+    "armour": 4290,
+    "evasion": 870,
+    "life": 13892,
+    "experience": 74226,
+    "physical_damage": 314.8399963378906
+  },
+  "79": {
+    "accuracy": 1798,
+    "ally_life": 9783,
+    "armour": 4540,
+    "evasion": 887,
+    "life": 14725,
+    "experience": 81664,
+    "physical_damage": 324.19000244140625
+  },
+  "80": {
+    "accuracy": 1859,
+    "ally_life": 10084,
+    "armour": 4803,
+    "evasion": 905,
+    "life": 15609,
+    "experience": 100000,
+    "physical_damage": 333.7799987792969
+  },
+  "81": {
+    "accuracy": 1922,
+    "ally_life": 10393,
+    "armour": 5081,
+    "evasion": 923,
+    "life": 16545,
+    "experience": 100000,
+    "physical_damage": 343.6000061035156
+  },
+  "82": {
+    "accuracy": 1987,
+    "ally_life": 10710,
+    "armour": 5375,
+    "evasion": 941,
+    "life": 17538,
+    "experience": 100000,
+    "physical_damage": 353.6700134277344
+  },
+  "83": {
+    "accuracy": 2054,
+    "ally_life": 11034,
+    "armour": 5684,
+    "evasion": 959,
+    "life": 18590,
+    "experience": 100000,
+    "physical_damage": 364.0
+  },
+  "84": {
+    "accuracy": 2123,
+    "ally_life": 11367,
+    "armour": 6011,
+    "evasion": 977,
+    "life": 19705,
+    "experience": 100000,
+    "physical_damage": 374.5799865722656
+  },
+  "85": {
+    "accuracy": 2194,
+    "ally_life": 11708,
+    "armour": 6355,
+    "evasion": 996,
+    "life": 20888,
+    "experience": 100000,
+    "physical_damage": 385.4200134277344
+  },
+  "86": {
+    "accuracy": 2266,
+    "ally_life": 12058,
+    "armour": 6718,
+    "evasion": 1015,
+    "life": 22141,
+    "experience": 100000,
+    "physical_damage": 396.5299987792969
+  },
+  "87": {
+    "accuracy": 2342,
+    "ally_life": 12417,
+    "armour": 7101,
+    "evasion": 1034,
+    "life": 23469,
+    "experience": 100000,
+    "physical_damage": 407.9200134277344
+  },
+  "88": {
+    "accuracy": 2419,
+    "ally_life": 12785,
+    "armour": 7505,
+    "evasion": 1053,
+    "life": 24878,
+    "experience": 100000,
+    "physical_damage": 419.5799865722656
+  },
+  "89": {
+    "accuracy": 2498,
+    "ally_life": 13161,
+    "armour": 7930,
+    "evasion": 1073,
+    "life": 26370,
+    "experience": 100000,
+    "physical_damage": 431.5400085449219
+  },
+  "90": {
+    "accuracy": 2580,
+    "ally_life": 13548,
+    "armour": 8379,
+    "evasion": 1093,
+    "life": 27953,
+    "experience": 100000,
+    "physical_damage": 443.7900085449219
+  },
+  "91": {
+    "accuracy": 2665,
+    "ally_life": 13944,
+    "armour": 8852,
+    "evasion": 1113,
+    "life": 29630,
+    "experience": 100000,
+    "physical_damage": 456.3399963378906
+  },
+  "92": {
+    "accuracy": 2751,
+    "ally_life": 14350,
+    "armour": 9351,
+    "evasion": 1133,
+    "life": 31407,
+    "experience": 100000,
+    "physical_damage": 469.20001220703125
+  },
+  "93": {
+    "accuracy": 2841,
+    "ally_life": 14766,
+    "armour": 9877,
+    "evasion": 1154,
+    "life": 33292,
+    "experience": 100000,
+    "physical_damage": 482.3800048828125
+  },
+  "94": {
+    "accuracy": 2933,
+    "ally_life": 15192,
+    "armour": 10431,
+    "evasion": 1174,
+    "life": 35289,
+    "experience": 100000,
+    "physical_damage": 495.8699951171875
+  },
+  "95": {
+    "accuracy": 3027,
+    "ally_life": 15629,
+    "armour": 11015,
+    "evasion": 1195,
+    "life": 37407,
+    "experience": 100000,
+    "physical_damage": 509.70001220703125
+  },
+  "96": {
+    "accuracy": 3124,
+    "ally_life": 16076,
+    "armour": 11630,
+    "evasion": 1217,
+    "life": 39651,
+    "experience": 100000,
+    "physical_damage": 523.8599853515625
+  },
+  "97": {
+    "accuracy": 3225,
+    "ally_life": 16535,
+    "armour": 12279,
+    "evasion": 1238,
+    "life": 42030,
+    "experience": 100000,
+    "physical_damage": 538.3699951171875
+  },
+  "98": {
+    "accuracy": 3328,
+    "ally_life": 17005,
+    "armour": 12962,
+    "evasion": 1260,
+    "life": 44552,
+    "experience": 100000,
+    "physical_damage": 553.22998046875
+  },
+  "99": {
+    "accuracy": 3434,
+    "ally_life": 17486,
+    "armour": 13682,
+    "evasion": 1282,
+    "life": 47225,
+    "experience": 100000,
+    "physical_damage": 568.4600219726562
+  },
+  "100": {
+    "accuracy": 3543,
+    "ally_life": 17980,
+    "armour": 14441,
+    "evasion": 1304,
+    "life": 50059,
+    "experience": 0,
+    "physical_damage": 584.0499877929688
+  }
+}

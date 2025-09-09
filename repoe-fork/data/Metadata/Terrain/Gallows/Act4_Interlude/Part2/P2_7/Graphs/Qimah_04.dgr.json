@@ -1,0 +1,675 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_7/master.tsi"
+  },
+  "edge_count": 12,
+  "edge_types": {
+    "QimarCityRooms": "QimarCityRooms #FFDA5347\r\nMetadata/Terrain/black_inside_wall.gt\r\nMetadata/Terrain/Maps/Qimar/Tiles/Abyss/qimar_abyss.gt\r\n0 1 0 0 0 0",
+    "QimarWallRooms": "QimarWallRooms #FFC3E463\r\nMetadata/Terrain/black_inside_wall.gt\r\nMetadata/Terrain/Maps/Qimar/Tiles/Abyss/qimar_abyss.gt\r\n0 1 0 0 0 0"
+  },
+  "edges": [
+    {
+      "color": "#FFDA5347",
+      "edge_type": "QimarCityRooms",
+      "from": 0,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_city_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFDA5347",
+      "edge_type": "QimarCityRooms",
+      "from": 12,
+      "path": [],
+      "to": 10,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_city_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFDA5347",
+      "edge_type": "QimarCityRooms",
+      "from": 10,
+      "path": [],
+      "to": 1,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_city_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFDA5347",
+      "edge_type": "QimarCityRooms",
+      "from": 6,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_city_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFC3E463",
+      "edge_type": "QimarWallRooms",
+      "from": 9,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_wall_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFC3E463",
+      "edge_type": "QimarWallRooms",
+      "from": 3,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_wall_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFC3E463",
+      "edge_type": "QimarWallRooms",
+      "from": 4,
+      "path": [],
+      "to": 0,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_wall_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFDA5347",
+      "edge_type": "QimarCityRooms",
+      "from": 7,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_city_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFDA5347",
+      "edge_type": "QimarCityRooms",
+      "from": 1,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_city_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFC3E463",
+      "edge_type": "QimarWallRooms",
+      "from": 2,
+      "path": [],
+      "to": 9,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_wall_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFDA5347",
+      "edge_type": "QimarCityRooms",
+      "from": 5,
+      "path": [],
+      "to": 11,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_city_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFDA5347",
+      "edge_type": "QimarCityRooms",
+      "from": 11,
+      "path": [],
+      "to": 12,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Qimar/Rooms/qimar_city_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "ChestData": "chests.cht",
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "combination.ecf",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/black_inside_wall.gt",
+    "Overlays": "overlays.toy",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 13,
+  "nodes": [
+    {
+      "numbers": [
+        0,
+        6
+      ],
+      "room": "entrance",
+      "strings": [
+        "default",
+        "entrance1"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 127
+    },
+    {
+      "numbers": [
+        2,
+        8
+      ],
+      "room": "landmark_vase",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 265,
+      "y": 127
+    },
+    {
+      "numbers": [
+        9,
+        3
+      ],
+      "room": "transition",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 403,
+      "y": 58
+    },
+    {
+      "numbers": [
+        4,
+        5
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 12
+    },
+    {
+      "numbers": [
+        5,
+        6
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 150
+    },
+    {
+      "numbers": [
+        10,
+        0
+      ],
+      "room": "landmark_well_1",
+      "strings": [
+        "shuffle1"
+      ],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 127
+    },
+    {
+      "numbers": [
+        3,
+        7
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 334,
+      "y": 58
+    },
+    {
+      "numbers": [
+        7,
+        8
+      ],
+      "room": "landmark_well_2",
+      "strings": [
+        "shuffle1"
+      ],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 334,
+      "y": 127
+    },
+    {
+      "numbers": [],
+      "room": "boss",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 403,
+      "y": 127
+    },
+    {
+      "numbers": [
+        9,
+        4
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 403,
+      "y": 12
+    },
+    {
+      "numbers": [
+        2,
+        1
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 265,
+      "y": 58
+    },
+    {
+      "numbers": [
+        11,
+        10
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 58
+    },
+    {
+      "numbers": [
+        1,
+        11
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 58
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [],
+  "size": [
+    21,
+    10
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [
+    {
+      "file": "Metadata/Terrain/Maps/Qimar/Tiles/Features/Thickwall_HeavyThinwall_Diagonal_Part_03.tdt",
+      "prefix": [
+        "//1"
+      ],
+      "suffix": [
+        "R90"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Maps/Qimar/Tiles/Features/Thickwall_HeavyThinwall_Diagonal_Part_03.tdt",
+      "prefix": [
+        "//1"
+      ],
+      "suffix": [
+        "R270"
+      ]
+    }
+  ],
+  "version": 25
+}

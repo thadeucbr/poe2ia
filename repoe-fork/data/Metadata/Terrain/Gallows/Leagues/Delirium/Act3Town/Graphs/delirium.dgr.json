@@ -1,0 +1,119 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Gallows/Leagues/Delirium/Act3Town/master.tsi"
+  },
+  "edge_count": 0,
+  "edge_types": {},
+  "edges": [],
+  "master": {
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 3,
+  "nodes": [
+    {
+      "numbers": [],
+      "room": "town",
+      "strings": [
+        "default",
+        "telepad1",
+        "teleport2"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 17,
+      "y": 14
+    },
+    {
+      "numbers": [],
+      "room": "black",
+      "strings": [
+        "telepad2",
+        "teleport1",
+        "telepad3",
+        "teleport4"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 476,
+      "y": 10
+    },
+    {
+      "numbers": [],
+      "room": "graph",
+      "strings": [
+        "Metadata/Terrain/Gallows/Leagues/Delirium/Act3Town/Graphs/_TownPast.dgr",
+        "13",
+        "17"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 674,
+      "y": 17
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [],
+  "size": [
+    42,
+    17
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [],
+  "version": 25
+}

@@ -1,0 +1,1528 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Gallows/Act4/4_14/master.tsi"
+  },
+  "edge_count": 27,
+  "edge_types": {
+    "PirateDune": "PirateDune #FFa88961\nwildcard\nMetadata/Terrain/Gallows/Act4/4_14/Tiles/dune_outer_ground.gt\n0 3 0",
+    "PirateDuneToOceanVirtual": "PirateDuneToOceanVirtual\r\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\r\nMetadata/Terrain/Gallows/Act4/4_14/Tiles/dune_outer_ground.gt\r\n0 3 1\r\nvirtual\r\nMetadata/Terrain/Gallows/Act4/4_14/Tiles/dune.et 0\r\nMetadata/Terrain/Islands/Tiles/Island/ShoreLine/island_shore_line.et 1\r\n40 60",
+    "PirateRockCliffRooms": "PirateRockCliffRooms #ffd87100\nMetadata/Terrain/Gallows/Act4/4_14/Tiles/dune_outer_ground.gt\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\n0 3 1 0 1 0\n",
+    "PirateRooms": "PirateRooms\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\n0 3 1",
+    "rooms": "rooms #FF5A5A5A\nwildcard\nwildcard\n0 1 0 0 1\n",
+    "void": "void #FF141414\nwildcard\nwildcard\n0 1 0\n"
+  },
+  "edges": [
+    {
+      "edge_type": "PirateDuneToOceanVirtual",
+      "from": 29,
+      "path": [],
+      "to": 0,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Tiles/dune_to_ocean_virtual.et",
+        0,
+        0,
+        0,
+        "",
+        60,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "PirateRooms",
+      "from": 1,
+      "path": [],
+      "to": 0,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "PirateDuneToOceanVirtual",
+      "from": 0,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Tiles/dune_to_ocean_virtual.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 28,
+      "path": [],
+      "to": 8,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        25,
+        75,
+        2,
+        "",
+        45,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "PirateRooms",
+      "from": 18,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        25,
+        125,
+        2,
+        "",
+        75,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFa88961",
+      "edge_type": "PirateDune",
+      "from": 8,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Tiles/dune.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ffd87100",
+      "edge_type": "PirateRockCliffRooms",
+      "from": 7,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/cliff_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFa88961",
+      "edge_type": "PirateDune",
+      "from": 5,
+      "path": [],
+      "to": 8,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Tiles/dune.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 9,
+      "path": [],
+      "to": 10,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 27,
+      "path": [],
+      "to": 13,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 16,
+      "path": [],
+      "to": 14,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 10,
+      "path": [],
+      "to": 15,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 11,
+      "path": [],
+      "to": 16,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "edge_type": "PirateRooms",
+      "from": 1,
+      "path": [],
+      "to": 18,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        25,
+        125,
+        2,
+        "",
+        75,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "PirateRooms",
+      "from": 1,
+      "path": [],
+      "to": 17,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        25,
+        125,
+        2,
+        "",
+        75,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "PirateRooms",
+      "from": 22,
+      "path": [],
+      "to": 18,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        25,
+        125,
+        2,
+        "",
+        75,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 24,
+      "path": [],
+      "to": 19,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "edge_type": "PirateRooms",
+      "from": 17,
+      "path": [],
+      "to": 20,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "PirateRooms",
+      "from": 17,
+      "path": [],
+      "to": 22,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        25,
+        125,
+        2,
+        "",
+        75,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "PirateRooms",
+      "from": 22,
+      "path": [],
+      "to": 21,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Rooms/pier_rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 19,
+      "path": [],
+      "to": 23,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 26,
+      "path": [],
+      "to": 24,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 24,
+      "path": [],
+      "to": 25,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 13,
+      "path": [],
+      "to": 26,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 12,
+      "path": [],
+      "to": 27,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 0,
+      "path": [],
+      "to": 28,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        25,
+        75,
+        2,
+        "",
+        45,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "PirateDuneToOceanVirtual",
+      "from": 3,
+      "path": [],
+      "to": 29,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_14/Tiles/dune_to_ocean_virtual.et",
+        0,
+        0,
+        0,
+        "",
+        60,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "combination.ecf",
+    "EnvironmentSector": "G4_14_boat\" \"ShipEnvironment",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/Island/island_ocean.gt",
+    "Overlays": "overlays.toy",
+    "OverrideMonsterSpawns": "Outdoor",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 30,
+  "nodes": [
+    {
+      "numbers": [
+        2,
+        1,
+        0,
+        25
+      ],
+      "room": "town_end",
+      "strings": [],
+      "transform": "R270",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 35
+    },
+    {
+      "numbers": [
+        14,
+        13,
+        1
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 150,
+      "y": 35
+    },
+    {
+      "numbers": [
+        2
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "R270",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 12
+    },
+    {
+      "numbers": [
+        26
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "FR270",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 173
+    },
+    {
+      "numbers": [
+        4
+      ],
+      "room": "InTheEnd.mp3.exe",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 173,
+      "y": 150
+    },
+    {
+      "numbers": [
+        7
+      ],
+      "room": "ThePirateBay",
+      "strings": [
+        "teleport1",
+        "telepad2"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 150
+    },
+    {
+      "numbers": [
+        5,
+        6
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 35,
+      "y": 104
+    },
+    {
+      "numbers": [
+        6
+      ],
+      "room": "end",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 104
+    },
+    {
+      "numbers": [
+        3,
+        7,
+        5
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 104
+    },
+    {
+      "numbers": [
+        8
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 35,
+      "y": 81
+    },
+    {
+      "numbers": [
+        11,
+        8
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 35,
+      "y": 12
+    },
+    {
+      "numbers": [
+        12
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 81,
+      "y": 173
+    },
+    {
+      "numbers": [
+        24
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 150,
+      "y": 12
+    },
+    {
+      "numbers": [
+        9,
+        23
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 219,
+      "y": 35
+    },
+    {
+      "numbers": [
+        10
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 104,
+      "y": 150
+    },
+    {
+      "numbers": [
+        11
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 104,
+      "y": 12
+    },
+    {
+      "numbers": [
+        10,
+        12
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 81,
+      "y": 150
+    },
+    {
+      "numbers": [
+        14,
+        17,
+        18
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 173,
+      "y": 58
+    },
+    {
+      "numbers": [
+        13,
+        15,
+        4
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 150,
+      "y": 104
+    },
+    {
+      "numbers": [
+        16,
+        20
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 242,
+      "y": 150
+    },
+    {
+      "numbers": [
+        17
+      ],
+      "room": "YouAreAPirate",
+      "strings": [],
+      "transform": "R270",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 219,
+      "y": 58
+    },
+    {
+      "numbers": [
+        19
+      ],
+      "room": "VirusDistributionSoftware",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 127
+    },
+    {
+      "numbers": [
+        18,
+        19,
+        15
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 104
+    },
+    {
+      "numbers": [
+        20
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 219,
+      "y": 150
+    },
+    {
+      "numbers": [
+        21,
+        16,
+        22
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 242,
+      "y": 104
+    },
+    {
+      "numbers": [
+        22
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 219,
+      "y": 104
+    },
+    {
+      "numbers": [
+        21,
+        23
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 242,
+      "y": 35
+    },
+    {
+      "numbers": [
+        9,
+        24
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 219,
+      "y": 12
+    },
+    {
+      "numbers": [
+        25,
+        3
+      ],
+      "room": "boat1",
+      "strings": [],
+      "transform": "FI",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 81
+    },
+    {
+      "numbers": [
+        0,
+        26
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 58
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Rooms/YoHoHo.arm",
+      "suffix": [
+        "I"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Rooms/Piers/pier_tri_03.arm",
+      "suffix": [
+        "R90",
+        "R180",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    }
+  ],
+  "size": [
+    11,
+    8
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Tiles/PiratePiers/Building_Multitiles/Building_Cnr_01.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Tiles/PiratePiers/Building_Multitiles/Building_Cnr_02.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "FR90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Tiles/PiratePiers/Building_Multitiles/Building_Cnr_03.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Tiles/PiratePiers/Building_Multitiles/Building_Cnr_04.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Tiles/PiratePiers/Building_Multitiles/Building_Cnr_05.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Tiles/PiratePiers/Building_Multitiles/Building_Cnr_06.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "FR90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Tiles/PiratePiers/Building_Multitiles/Building_Tri_01.tdt",
+      "suffix": [
+        "R180",
+        "FR180",
+        "R90",
+        "FR90"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Tiles/PiratePiers/Building_Multitiles/Building_Tri_03.tdt",
+      "suffix": [
+        "R180",
+        "FR180",
+        "R90",
+        "FR90"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Tiles/PiratePiers/Building_Multitiles/Building_Tri_04.tdt",
+      "suffix": [
+        "R180",
+        "FR180",
+        "R90",
+        "FR90"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_14/Tiles/PiratePiers/Building_Multitiles/Building_End_03.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "FR90",
+        "FR180",
+        "FR270"
+      ]
+    }
+  ],
+  "version": 25
+}

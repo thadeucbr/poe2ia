@@ -1,0 +1,2469 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Gallows/Act4/4_8b/master.tsi"
+  },
+  "edge_count": 36,
+  "edge_types": {
+    "TwilightBuildingFillEdge": "TwilightBuildingFillEdge\r\nMetadata/Terrain/Islands/Tiles/TwilightIsland/island_town_unwalkable_fill.gt\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\n0 3 1 0 0 0",
+    "TwilightBuildingOceanCliffs": "TwilightBuildingOceanCliffs\r\nMetadata/Terrain/Islands/Tiles/TwilightIsland/island_town_unwalkable_fill.gt\r\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\r\n0 3 1 0 0 0",
+    "TwilightCliffsidePath": "TwilightCliffsidePath #FF6B649F\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\r\n0 3 1 0 0 0",
+    "TwilightGorgePath": "TwilightGorgePath #FF9F8664\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\n0 3 1 0 0 0",
+    "TwilightOceanCliffs": "TwilightOceanCliffs #FF5B5969\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\r\n0 3 1 0 0 0",
+    "TwilightRavine": "TwilightRavine #FF92ACE2\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\n0 3 1 0 0 0",
+    "rooms": "rooms #FF5A5A5A\nwildcard\nwildcard\n0 1 0 0 1\n",
+    "void": "void #FF141414\nwildcard\nwildcard\n0 1 0\n"
+  },
+  "edges": [
+    {
+      "color": "#FF6B649F",
+      "edge_type": "TwilightCliffsidePath",
+      "from": 0,
+      "path": [],
+      "to": 11,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_cliffside_path.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5B5969",
+      "edge_type": "TwilightOceanCliffs",
+      "from": 36,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/twilight_ocean_cliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        0
+      ]
+    },
+    {
+      "color": "#FF6B649F",
+      "edge_type": "TwilightCliffsidePath",
+      "from": 11,
+      "path": [],
+      "to": 1,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_cliffside_path.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TwilightBuildingOceanCliffs",
+      "from": 12,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/OceanCliffs/BuildingCliffs/twilight_building_ocean_cliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF9F8664",
+      "edge_type": "TwilightGorgePath",
+      "from": 28,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_gorge_path.et",
+        0,
+        25,
+        1,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF9F8664",
+      "edge_type": "TwilightGorgePath",
+      "from": 29,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_gorge_path.et",
+        0,
+        50,
+        1,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 4,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        100,
+        1,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 7,
+      "path": [],
+      "to": 0,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        25,
+        125,
+        2,
+        "",
+        75,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF92ACE2",
+      "edge_type": "TwilightRavine",
+      "from": 31,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_ravine.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        0
+      ]
+    },
+    {
+      "color": "#FF92ACE2",
+      "edge_type": "TwilightRavine",
+      "from": 30,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_ravine.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        0
+      ]
+    },
+    {
+      "edge_type": "TwilightBuildingOceanCliffs",
+      "from": 1,
+      "path": [],
+      "to": 10,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/OceanCliffs/BuildingCliffs/twilight_building_ocean_cliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5B5969",
+      "edge_type": "TwilightOceanCliffs",
+      "from": 3,
+      "path": [],
+      "to": 12,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/twilight_ocean_cliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 7,
+      "path": [],
+      "to": 13,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        25,
+        125,
+        2,
+        "",
+        75,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TwilightBuildingFillEdge",
+      "from": 19,
+      "path": [],
+      "to": 12,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/OceanCliffs/BuildingCliffs/twilight_building_fill_edge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TwilightBuildingFillEdge",
+      "from": 15,
+      "path": [],
+      "to": 16,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/OceanCliffs/BuildingCliffs/twilight_building_fill_edge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TwilightBuildingFillEdge",
+      "from": 16,
+      "path": [],
+      "to": 10,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/OceanCliffs/BuildingCliffs/twilight_building_fill_edge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TwilightBuildingFillEdge",
+      "from": 23,
+      "path": [],
+      "to": 17,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/OceanCliffs/BuildingCliffs/twilight_building_fill_edge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TwilightBuildingFillEdge",
+      "from": 20,
+      "path": [],
+      "to": 18,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/OceanCliffs/BuildingCliffs/twilight_building_fill_edge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TwilightBuildingFillEdge",
+      "from": 18,
+      "path": [],
+      "to": 19,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/OceanCliffs/BuildingCliffs/twilight_building_fill_edge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "edge_type": "TwilightBuildingFillEdge",
+      "from": 15,
+      "path": [],
+      "to": 20,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/OceanCliffs/BuildingCliffs/twilight_building_fill_edge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 21,
+      "path": [],
+      "to": 22,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "edge_type": "TwilightBuildingFillEdge",
+      "from": 0,
+      "path": [],
+      "to": 23,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/OceanCliffs/BuildingCliffs/twilight_building_fill_edge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF92ACE2",
+      "edge_type": "TwilightRavine",
+      "from": 8,
+      "path": [],
+      "to": 24,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_ravine.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        0
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 25,
+      "path": [],
+      "to": 26,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 14,
+      "path": [],
+      "to": 27,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF9F8664",
+      "edge_type": "TwilightGorgePath",
+      "from": 16,
+      "path": [],
+      "to": 28,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_gorge_path.et",
+        0,
+        25,
+        1,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF9F8664",
+      "edge_type": "TwilightGorgePath",
+      "from": 5,
+      "path": [],
+      "to": 29,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_gorge_path.et",
+        0,
+        0,
+        1,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF92ACE2",
+      "edge_type": "TwilightRavine",
+      "from": 37,
+      "path": [],
+      "to": 30,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_ravine.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        0
+      ]
+    },
+    {
+      "color": "#FF92ACE2",
+      "edge_type": "TwilightRavine",
+      "from": 24,
+      "path": [],
+      "to": 31,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_ravine.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        0
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 38,
+      "path": [],
+      "to": 33,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "edge_type": "TwilightBuildingOceanCliffs",
+      "from": 0,
+      "path": [],
+      "to": 34,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/OceanCliffs/BuildingCliffs/twilight_building_ocean_cliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 14,
+      "path": [],
+      "to": 35,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF5B5969",
+      "edge_type": "TwilightOceanCliffs",
+      "from": 10,
+      "path": [],
+      "to": 36,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/TwilightIsland/twilight_ocean_cliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        0
+      ]
+    },
+    {
+      "color": "#FF92ACE2",
+      "edge_type": "TwilightRavine",
+      "from": 9,
+      "path": [],
+      "to": 37,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/twilight_ravine.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        0
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 32,
+      "path": [],
+      "to": 38,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 33,
+      "path": [],
+      "to": 39,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Decals": "decals.dct",
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "combination.ecf",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt",
+    "Overlays": "overlays.toy",
+    "OverrideMonsterSpawns": "Outdoor",
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 40,
+  "nodes": [
+    {
+      "numbers": [
+        7,
+        21,
+        0,
+        30
+      ],
+      "room": "TownGate",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 265
+    },
+    {
+      "numbers": [
+        10,
+        2
+      ],
+      "room": "OverlookGate",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 242
+    },
+    {
+      "numbers": [
+        1
+      ],
+      "room": "end",
+      "strings": [],
+      "transform": "FR270",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 334,
+      "y": 380
+    },
+    {
+      "numbers": [
+        11
+      ],
+      "room": "end",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 495,
+      "y": 104
+    },
+    {
+      "numbers": [
+        3,
+        6
+      ],
+      "room": "Entrance",
+      "strings": [
+        "entrance1",
+        "default",
+        "telepad1"
+      ],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 12
+    },
+    {
+      "numbers": [
+        8,
+        26,
+        9,
+        4
+      ],
+      "room": "Bridge",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 334,
+      "y": 196
+    },
+    {
+      "numbers": [
+        5
+      ],
+      "room": "Exit",
+      "strings": [
+        "teleport2disabled-Arena",
+        "teleport3disabled-Arena",
+        "entrance2",
+        "telepad2"
+      ],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 449,
+      "y": 242
+    },
+    {
+      "numbers": [
+        6,
+        12,
+        7
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 196
+    },
+    {
+      "numbers": [
+        22
+      ],
+      "room": "source",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 495,
+      "y": 127
+    },
+    {
+      "numbers": [
+        33
+      ],
+      "room": "sink",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 426,
+      "y": 380
+    },
+    {
+      "numbers": [
+        10,
+        15,
+        32
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 265,
+      "y": 288
+    },
+    {
+      "numbers": [
+        0,
+        2
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 311
+    },
+    {
+      "numbers": [
+        3,
+        11,
+        13
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 104
+    },
+    {
+      "numbers": [
+        12
+      ],
+      "room": "bottleneck",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 196
+    },
+    {
+      "numbers": [
+        24,
+        31
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 12,
+      "y": 196
+    },
+    {
+      "numbers": [
+        14,
+        19
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 265,
+      "y": 219
+    },
+    {
+      "numbers": [
+        14,
+        25,
+        15
+      ],
+      "room": "connect",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 265,
+      "y": 242
+    },
+    {
+      "numbers": [
+        16
+      ],
+      "room": "end",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 173,
+      "y": 265
+    },
+    {
+      "numbers": [
+        17,
+        18
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 242,
+      "y": 150
+    },
+    {
+      "numbers": [
+        13,
+        18
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 150
+    },
+    {
+      "numbers": [
+        17,
+        19
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 242,
+      "y": 219
+    },
+    {
+      "numbers": [
+        20
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 104,
+      "y": 173
+    },
+    {
+      "numbers": [
+        20
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 104,
+      "y": 150
+    },
+    {
+      "numbers": [
+        16,
+        21
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 265
+    },
+    {
+      "numbers": [
+        22,
+        28
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 334,
+      "y": 127
+    },
+    {
+      "numbers": [
+        23
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 265,
+      "y": 196
+    },
+    {
+      "numbers": [
+        23
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 311,
+      "y": 150
+    },
+    {
+      "numbers": [
+        24
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 12,
+      "y": 173
+    },
+    {
+      "numbers": [
+        4,
+        25
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 288,
+      "y": 219
+    },
+    {
+      "numbers": [
+        5,
+        26
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 426,
+      "y": 196
+    },
+    {
+      "numbers": [
+        9,
+        27
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 357,
+      "y": 242
+    },
+    {
+      "numbers": [
+        28,
+        8
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 334,
+      "y": 173
+    },
+    {
+      "numbers": [
+        34
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 357,
+      "y": 150
+    },
+    {
+      "numbers": [
+        29,
+        35
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 426,
+      "y": 173
+    },
+    {
+      "numbers": [
+        30
+      ],
+      "room": "end",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 265
+    },
+    {
+      "numbers": [
+        31
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 58,
+      "y": 242
+    },
+    {
+      "numbers": [
+        1,
+        32
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 334,
+      "y": 288
+    },
+    {
+      "numbers": [
+        33,
+        27
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 426,
+      "y": 242
+    },
+    {
+      "numbers": [
+        29,
+        34
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 426,
+      "y": 150
+    },
+    {
+      "numbers": [
+        35
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 495,
+      "y": 173
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/Unique/Exit_Gate_01.arm",
+      "suffix": [
+        "I"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/Unique/Entrance_Town_01.arm",
+      "suffix": [
+        "I"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_8b/Rooms/Town/Town_8Open_01.arm",
+      "prefix": [
+        "100"
+      ],
+      "suffix": [
+        "I"
+      ]
+    }
+  ],
+  "size": [
+    22,
+    17
+  ],
+  "strings": [
+    "",
+    "Metadata/Terrain/Islands/Tiles/TwilightIsland/twilight_cliffside_ground.gt",
+    ""
+  ],
+  "tile_set": [
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_Cv_03.tdt",
+      "suffix": [
+        "R270",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_St_01.tdt",
+      "suffix": [
+        "I",
+        "R270",
+        "FI",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_St_03.tdt",
+      "suffix": [
+        "I",
+        "R270",
+        "FI",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_StDoor_03.tdt",
+      "suffix": [
+        "I",
+        "R270",
+        "FI",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_StDoor_05.tdt",
+      "suffix": [
+        "I",
+        "R270",
+        "FI",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_X_01.tdt",
+      "suffix": [
+        "R90",
+        "R180",
+        "R270",
+        "FI",
+        "FR90",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_X_02.tdt",
+      "suffix": [
+        "R90",
+        "R270",
+        "FI",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_X_03.tdt",
+      "suffix": [
+        "R90",
+        "R270",
+        "FI",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_Cc_01.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_Cc_02.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_Cc_04.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_Cc_05.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingLedge/BuildingLedge_Cc_06.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_XDoor_01.tdt",
+      "suffix": [
+        "R270",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_XDoor_02.tdt",
+      "suffix": [
+        "R270",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_XDoor_03.tdt",
+      "suffix": [
+        "I",
+        "R180",
+        "FR90",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_XDoor_04.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "FR90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_CcCc_01.tdt",
+      "suffix": [
+        "I",
+        "R180",
+        "R270",
+        "FI",
+        "FR90",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_CcCc_02.tdt",
+      "suffix": []
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_CcCc_02.tdt",
+      "prefix": [
+        "//"
+      ],
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "FR90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_CcCv_02.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_Cliffs_CcCc_01.tdt",
+      "suffix": [
+        "I",
+        "R180",
+        "R270",
+        "FI",
+        "FR90",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_CvCc_02.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_CvCcDoor_01.tdt",
+      "suffix": [
+        "I",
+        "R270",
+        "FI",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_CvCv_01.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_CvCvDoor_02.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_StSt_01.tdt",
+      "suffix": [
+        "I",
+        "R270",
+        "FI",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_StStDoor_01.tdt",
+      "suffix": [
+        "I",
+        "R270",
+        "FI",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_X_02.tdt",
+      "suffix": [
+        "I",
+        "R180",
+        "FR90",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_X_03.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "FR90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_BuildingLedge_XDoor_01.tdt",
+      "suffix": [
+        "R90",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cc_01.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cc_02.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cc_03.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cc_03_blank.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cc_04.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cc_05.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cc_06.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cc_09.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cc_10.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cc_11.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cliffs_BuildingLedge_StSt_01.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cliffs_BuildingLedgeCc_01.tdt",
+      "suffix": [
+        "I",
+        "R180",
+        "R270",
+        "FI",
+        "FR90",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cliffs_BuildingLedgeCv_01.tdt",
+      "suffix": [
+        "I",
+        "R180",
+        "R270",
+        "FI",
+        "FR90",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cliffs_X_01.tdt",
+      "suffix": [
+        "I",
+        "R180",
+        "R270",
+        "FI",
+        "FR90",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cliffs_XDoor_01.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "FR90",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cv_01.tdt",
+      "suffix": [
+        "R270",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cv_03.tdt",
+      "suffix": [
+        "R270",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cv_05.tdt",
+      "suffix": [
+        "R270",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_Cv_06.tdt",
+      "suffix": [
+        "I",
+        "R180",
+        "R270",
+        "FI",
+        "FR90",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_OceanCliffs_X_01.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_OceanCliffsUpper_X_01.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_St_01.tdt",
+      "suffix": [
+        "I",
+        "R270",
+        "FI",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_St_02.tdt",
+      "suffix": [
+        "I",
+        "R270",
+        "FI",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_St_03.tdt",
+      "suffix": [
+        "I",
+        "R270",
+        "FI",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_X_01.tdt",
+      "suffix": [
+        "R90",
+        "R270",
+        "FI",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/BuildingWall/BuildingWall_X_02.tdt",
+      "suffix": [
+        "R90",
+        "R270",
+        "FI",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/Cliffs/Cliffs_BuildingWall_BuildingLedge_CvCc_01.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R270",
+        "FI",
+        "FR180",
+        "FR270"
+      ]
+    }
+  ],
+  "version": 25
+}

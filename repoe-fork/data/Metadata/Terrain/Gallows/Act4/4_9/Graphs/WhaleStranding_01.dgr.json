@@ -1,0 +1,2211 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Gallows/Act4/4_9/master.tsi"
+  },
+  "edge_count": 29,
+  "edge_types": {
+    "ShorelineBlockedRooms": "ShorelineBlockedRooms #FF1919FF\nwildcard\nMetadata/Terrain/Desert/Seashore/depths.gt\n0 3 0",
+    "ShorelineRooms": "ShorelineRooms #FF6262FF\nwildcard\nMetadata/Terrain/Desert/Seashore/depths.gt\n0 3 0",
+    "TransitionRooms": "TransitionRooms #FF8A5A5A\nMetadata/Terrain/Desert/Stromatolite/stromatolite.gt\nMetadata/Terrain/Desert/Stromatolite/stromatolite.gt\n0 3 0 0 1\n",
+    "rooms": "rooms #FF5A5A5A\nwildcard\nwildcard\n0 1 0 0 1\n",
+    "void": "void #FF141414\nwildcard\nwildcard\n0 1 0\n"
+  },
+  "edges": [
+    {
+      "color": "#FF1919FF",
+      "edge_type": "ShorelineBlockedRooms",
+      "from": 9,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_shoreline_impassable.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF1919FF",
+      "edge_type": "ShorelineBlockedRooms",
+      "from": 2,
+      "path": [],
+      "to": 0,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_shoreline_impassable.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF1919FF",
+      "edge_type": "ShorelineBlockedRooms",
+      "from": 5,
+      "path": [],
+      "to": 8,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_shoreline_impassable.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF6262FF",
+      "edge_type": "ShorelineRooms",
+      "from": 8,
+      "path": [],
+      "to": 9,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF1919FF",
+      "edge_type": "ShorelineBlockedRooms",
+      "from": 17,
+      "path": [],
+      "to": 10,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_shoreline_impassable.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 12,
+      "path": [],
+      "to": 13,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 14,
+      "path": [],
+      "to": 15,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        100,
+        0,
+        "",
+        30,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 15,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 14,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF1919FF",
+      "edge_type": "ShorelineBlockedRooms",
+      "from": 3,
+      "path": [],
+      "to": 17,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_shoreline_impassable.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 14,
+      "path": [],
+      "to": 11,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        100,
+        0,
+        "",
+        30,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 22,
+      "path": [],
+      "to": 16,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF6262FF",
+      "edge_type": "ShorelineRooms",
+      "from": 1,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF8A5A5A",
+      "edge_type": "TransitionRooms",
+      "from": 3,
+      "path": [],
+      "to": 10,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_transition.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF6262FF",
+      "edge_type": "ShorelineRooms",
+      "from": 10,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_shoreline.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF8A5A5A",
+      "edge_type": "TransitionRooms",
+      "from": 18,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_transition.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF8A5A5A",
+      "edge_type": "TransitionRooms",
+      "from": 18,
+      "path": [],
+      "to": 8,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_transition.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 11,
+      "path": [],
+      "to": 26,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        100,
+        0,
+        "",
+        30,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 26,
+      "path": [],
+      "to": 19,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        100,
+        0,
+        "",
+        30,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 12,
+      "path": [],
+      "to": 21,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 21,
+      "path": [],
+      "to": 22,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF8A5A5A",
+      "edge_type": "TransitionRooms",
+      "from": 23,
+      "path": [],
+      "to": 24,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_transition.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 28,
+      "path": [],
+      "to": 25,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF8A5A5A",
+      "edge_type": "TransitionRooms",
+      "from": 26,
+      "path": [],
+      "to": 8,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_9/Graphs/rooms_transition.et",
+        0,
+        100,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 19,
+      "path": [],
+      "to": 15,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        100,
+        0,
+        "",
+        30,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 27,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 27,
+      "path": [],
+      "to": 11,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        100,
+        0,
+        "",
+        30,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 27,
+      "path": [],
+      "to": 19,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        100,
+        0,
+        "",
+        30,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 20,
+      "path": [],
+      "to": 28,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Decals": "decals.dct",
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "combination.ecf",
+    "EnvironmentSector": "G4_9_1_boat\" \"ShipEnvironment",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Desert/Seashore/depths.gt",
+    "Overlays": "overlays.toy",
+    "RoomOverlap": null,
+    "RoomSet": "rooms.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 29,
+  "nodes": [
+    {
+      "numbers": [
+        1
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "FI",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 403,
+      "y": 150
+    },
+    {
+      "numbers": [
+        12
+      ],
+      "room": "entrance",
+      "strings": [
+        "default",
+        "entrance1"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 58
+    },
+    {
+      "numbers": [
+        0,
+        1
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 380,
+      "y": 150
+    },
+    {
+      "numbers": [
+        12,
+        9,
+        13
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 81
+    },
+    {
+      "numbers": [
+        25
+      ],
+      "room": "boss",
+      "strings": [
+        "unique1"
+      ],
+      "transform": "FI",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 173,
+      "y": 288
+    },
+    {
+      "numbers": [
+        2,
+        15,
+        14
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 173,
+      "y": 35
+    },
+    {
+      "numbers": [
+        7
+      ],
+      "room": "boss",
+      "strings": [
+        "unique1"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 334,
+      "y": 288
+    },
+    {
+      "numbers": [
+        8
+      ],
+      "room": "boss",
+      "strings": [
+        "unique1"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 288
+    },
+    {
+      "numbers": [
+        2,
+        3,
+        23,
+        16
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 219,
+      "y": 81
+    },
+    {
+      "numbers": [
+        3,
+        0
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 265,
+      "y": 104
+    },
+    {
+      "numbers": [
+        14,
+        13,
+        4
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 58
+    },
+    {
+      "numbers": [
+        17,
+        26,
+        10
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 35,
+      "y": 196
+    },
+    {
+      "numbers": [
+        5,
+        19
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 403,
+      "y": 311
+    },
+    {
+      "numbers": [
+        5
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 403,
+      "y": 173
+    },
+    {
+      "numbers": [
+        10,
+        6,
+        8
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 242
+    },
+    {
+      "numbers": [
+        24,
+        7,
+        6
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 288,
+      "y": 242
+    },
+    {
+      "numbers": [
+        11
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 196,
+      "y": 127
+    },
+    {
+      "numbers": [
+        4,
+        9
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 58
+    },
+    {
+      "numbers": [
+        15,
+        16
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 173,
+      "y": 81
+    },
+    {
+      "numbers": [
+        18,
+        24,
+        27
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 334,
+      "y": 196
+    },
+    {
+      "numbers": [
+        28
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 311,
+      "y": 150
+    },
+    {
+      "numbers": [
+        20,
+        19
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 12,
+      "y": 311
+    },
+    {
+      "numbers": [
+        11,
+        20
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 12,
+      "y": 127
+    },
+    {
+      "numbers": [
+        21
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        50,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 104
+    },
+    {
+      "numbers": [
+        21
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 81
+    },
+    {
+      "numbers": [
+        22
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 265,
+      "y": 127
+    },
+    {
+      "numbers": [
+        23,
+        18,
+        17
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 219,
+      "y": 150
+    },
+    {
+      "numbers": [
+        26,
+        27,
+        25
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 219
+    },
+    {
+      "numbers": [
+        28,
+        22
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(any)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 288,
+      "y": 127
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [],
+  "size": [
+    18,
+    16
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Features/CarcassBomb_Cv_01.tdt",
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Features/CarcassBomb_Cv_02.tdt",
+      "suffix": [
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Features/CarcassBomb_Fill_01.tdt",
+      "suffix": [
+        "I"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Features/CarcassBomb_St_01.tdt",
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Features/CarcassBomb_St_02.tdt",
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Features/CarcassBomb_St_03.tdt",
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Features/CarcassBomb_St_04.tdt",
+      "suffix": [
+        "R90",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/Overlay_Cc_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/Overlay_Cv_02.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/Overlay_St_curve_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/Pool_Cc_ToRocks_01.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/Pool_Cc_ToRocks_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/Pool_Cc_ToRocks_03.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/Pool_Cc_ToRocks_04.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/Pool_Cc_ToRocks_05.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/Pool_Cc_ToRocks_06.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/Pool_St_ToRocks_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/Pool_St_ToRocks_02.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolEdge_Cc_01.tdt",
+      "suffix": [
+        "I",
+        "R180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolEdge_Cc_02.tdt",
+      "suffix": [
+        "I",
+        "R180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolEdge_Cv_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolEdge_CvCv_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolEdge_St_01.tdt",
+      "suffix": [
+        "I",
+        "R180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolEdge_St_02.tdt",
+      "suffix": [
+        "R90",
+        "R270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolEdgeCv_PoolRocksCv_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolFill_01_Forced.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolRocks_Cc_01.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolRocks_Cv_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolRocks_CvCv_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolRocks_St_01.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/RockPool/PoolRocks_St_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_Cv_01.tdt",
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_Cv_02.tdt",
+      "suffix": [
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_Cv_03.tdt",
+      "suffix": [
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_Cv_04.tdt",
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_Passage_01.tdt",
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_Passage_02.tdt",
+      "suffix": [
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_Passage_03.tdt",
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_Passage_04.tdt",
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_St_01.tdt",
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_St_02.tdt",
+      "suffix": [
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_St_03.tdt",
+      "suffix": [
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Carcass_St_04.tdt",
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Cc_01.tdt",
+      "suffix": [
+        "I",
+        "R180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Cc_02.tdt",
+      "suffix": [
+        "I",
+        "R180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/CcCc_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Cv_01.tdt",
+      "suffix": [
+        "I",
+        "R180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/Cv_02.tdt",
+      "suffix": [
+        "I",
+        "R180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/St_01.tdt",
+      "suffix": [
+        "I",
+        "R180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Rocks/St_02.tdt",
+      "suffix": [
+        "FR90",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/deep_Cc_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/deep_Cc_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/deep_Cc_03.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/deep_St_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/deep_St_03.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockOcean_Cc_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockOcean_Cv_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockOcean_Deep_Cc_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockOcean_Deep_Cc_02.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockOcean_Deep_St_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockOcean_Deep_St_02.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockOcean_St_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockOcean_St_02.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockOcean_St_Deep_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockOcean_St_Deep_02.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockShallowWater_Cc_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockShallowWater_Cv_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockShallowWater_St_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockShallowWater_St_02.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockShallowWater_X_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/RockShallowWater_X_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/St_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/WaterLedgeCc_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/WaterLedgeCc_toRocks_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/WaterLedgeCc_toRocks_02.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/WaterLedgeCc_toRocks_03.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/WaterLedgeCc_toRocks_04.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/WaterLedgeCc_toRocks_05.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/WaterLedgeCv_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/WaterLedgeCv_RockShallowWaterCv_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/WaterLedgeSt_toRocks_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/WaterLedgeSt_toRocks_02.tdt",
+      "suffix": [
+        "R90",
+        "FR90",
+        "R270",
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/Overlays/deep_Overlay_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/Overlays/deep_Overlay_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/Overlays/deep_Overlay_03.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/Overlays/deep_Overlay_04.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/Overlays/Shallow_Overlay_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/Overlays/Shallow_Overlay_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/Overlays/WaterLedge_Overlay_01.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/WhaleStranding/Shore/Overlays/WaterLedge_Overlay_02.tdt",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    }
+  ],
+  "version": 25
+}

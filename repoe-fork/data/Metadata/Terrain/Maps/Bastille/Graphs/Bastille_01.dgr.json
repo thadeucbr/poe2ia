@@ -1,0 +1,545 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Maps/Bastille/master.tsi"
+  },
+  "edge_count": 10,
+  "edge_types": {
+    "BastillePrisonEdge": "BastillePrisonEdge #ff745247\nMetadata/Terrain/Islands/Tiles/Prison/prison_courtyard_ground.gt\nMetadata/Terrain/Islands/Tiles/Prison/prison_blackwall.gt\n0 1 0 0 0 0\n",
+    "CourtyardThickWall": "CourtyardThickWall #78BFF0FF\r\nMetadata/Terrain/Islands/Tiles/Prison/prison_courtyard_ground.gt\r\nMetadata/Terrain/Islands/Tiles/Prison/prison_blackwall.gt\r\n0 1 0 0 0 0"
+  },
+  "edges": [
+    {
+      "color": "#ff745247",
+      "edge_type": "BastillePrisonEdge",
+      "from": 9,
+      "path": [],
+      "to": 0,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Maps/Bastille/Graphs/BastillePrisonEdge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#78BFF0FF",
+      "edge_type": "CourtyardThickWall",
+      "from": 4,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Prison/Courtyard/courtyard_thick_wall.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#78BFF0FF",
+      "edge_type": "CourtyardThickWall",
+      "from": 8,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Prison/Courtyard/courtyard_thick_wall.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff745247",
+      "edge_type": "BastillePrisonEdge",
+      "from": 0,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Maps/Bastille/Graphs/BastillePrisonEdge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff745247",
+      "edge_type": "BastillePrisonEdge",
+      "from": 1,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Bastille/Graphs/BastillePrisonEdge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#78BFF0FF",
+      "edge_type": "CourtyardThickWall",
+      "from": 3,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Prison/Courtyard/courtyard_thick_wall.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff745247",
+      "edge_type": "BastillePrisonEdge",
+      "from": 7,
+      "path": [],
+      "to": 1,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Bastille/Graphs/BastillePrisonEdge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff745247",
+      "edge_type": "BastillePrisonEdge",
+      "from": 6,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/Bastille/Graphs/BastillePrisonEdge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#78BFF0FF",
+      "edge_type": "CourtyardThickWall",
+      "from": 5,
+      "path": [],
+      "to": 8,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Prison/Courtyard/courtyard_thick_wall.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff745247",
+      "edge_type": "BastillePrisonEdge",
+      "from": 6,
+      "path": [],
+      "to": 9,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Maps/Bastille/Graphs/BastillePrisonEdge.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Decals": "decals.dct",
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "prison.ecf",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/Prison/prison_blackwall.gt",
+    "OverrideMonsterSpawns": "Outdoor",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 10,
+  "nodes": [
+    {
+      "numbers": [
+        0,
+        3
+      ],
+      "room": "Cnr",
+      "strings": [
+        "checkpoint3"
+      ],
+      "transform": "R270",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 104
+    },
+    {
+      "numbers": [
+        4,
+        6
+      ],
+      "room": "Cnr",
+      "strings": [
+        "checkpoint5"
+      ],
+      "transform": "R90",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 12
+    },
+    {
+      "numbers": [
+        1,
+        2
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 104
+    },
+    {
+      "numbers": [
+        5,
+        3
+      ],
+      "room": "End",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 104
+    },
+    {
+      "numbers": [
+        4,
+        1
+      ],
+      "room": "End",
+      "strings": [],
+      "transform": "FR270",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 58
+    },
+    {
+      "numbers": [
+        5,
+        8
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 127
+    },
+    {
+      "numbers": [
+        7,
+        9
+      ],
+      "room": "Cnr",
+      "strings": [
+        "checkpoint4"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 12
+    },
+    {
+      "numbers": [
+        6,
+        7
+      ],
+      "room": "entrance",
+      "strings": [
+        "default",
+        "checkpoint1"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 58,
+      "y": 12
+    },
+    {
+      "numbers": [
+        2,
+        8
+      ],
+      "room": "map_boss",
+      "strings": [
+        "checkpoint2"
+      ],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 127
+    },
+    {
+      "numbers": [
+        9,
+        0
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 58
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [],
+  "size": [
+    7,
+    7
+  ],
+  "strings": [
+    "",
+    "Metadata/Terrain/Islands/Tiles/Prison/prison_ground.gt",
+    ""
+  ],
+  "tile_set": [],
+  "version": 25
+}

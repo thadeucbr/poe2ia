@@ -1,0 +1,80 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Gallows/Act4/4_ship/master.tsi"
+  },
+  "edge_count": 0,
+  "edge_types": {},
+  "edges": [],
+  "master": {
+    "CountAsPrimary": null,
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/KalguurShip/ship_void.gt",
+    "RoofFadeDistanceDownscreen": null,
+    "RoofFadeDistanceUpscreen": null,
+    "RoofFadeMode": "Island",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 1,
+  "nodes": [
+    {
+      "numbers": [],
+      "room": "boat",
+      "strings": [
+        "default",
+        "telepad1",
+        "teleport2-%areaname%",
+        "entrance1"
+      ],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 12
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [
+    {
+      "file": "Metadata/Terrain/Gallows/Act4/4_ship/Rooms/boat_01.arm",
+      "suffix": [
+        "I"
+      ]
+    }
+  ],
+  "size": [
+    1,
+    1
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [],
+  "version": 25
+}

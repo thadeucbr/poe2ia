@@ -1,0 +1,471 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Maps/Excavation/master.tsi"
+  },
+  "edge_count": 8,
+  "edge_types": {
+    "PrecursorDigSiteHighCliffs": "PrecursorDigSiteHighCliffs #FFD5D5A0\r\nMetadata/Terrain/Islands/Tiles/TwilightIsland/Ledge/digsite_highground.gt\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\n0 3 1 0 0 1",
+    "PrecursorDigSiteLowCliffs": "PrecursorDigSiteLowCliffs #FFA5A570\r\nMetadata/Terrain/Islands/Tiles/TwilightIsland/Ledge/digsite_lowground.gt\r\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\r\n0 3 1 0 0 1"
+  },
+  "edges": [
+    {
+      "color": "#FFA5A570",
+      "edge_type": "PrecursorDigSiteLowCliffs",
+      "from": 0,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_10/Graphs/digsite_lowcliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFA5A570",
+      "edge_type": "PrecursorDigSiteLowCliffs",
+      "from": 0,
+      "path": [],
+      "to": 1,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_10/Graphs/digsite_lowcliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFA5A570",
+      "edge_type": "PrecursorDigSiteLowCliffs",
+      "from": 7,
+      "path": [],
+      "to": 1,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_10/Graphs/digsite_lowcliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFD5D5A0",
+      "edge_type": "PrecursorDigSiteHighCliffs",
+      "from": 3,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_10/Graphs/digsite_highcliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFD5D5A0",
+      "edge_type": "PrecursorDigSiteHighCliffs",
+      "from": 4,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_10/Graphs/digsite_highcliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFD5D5A0",
+      "edge_type": "PrecursorDigSiteHighCliffs",
+      "from": 5,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_10/Graphs/digsite_highcliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFD5D5A0",
+      "edge_type": "PrecursorDigSiteHighCliffs",
+      "from": 6,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_10/Graphs/digsite_highcliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FFA5A570",
+      "edge_type": "PrecursorDigSiteLowCliffs",
+      "from": 2,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Gallows/Act4/4_10/Graphs/digsite_lowcliffs.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Decals": "decals.dct",
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "combination.ecf",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt",
+    "Overlays": "overlays.toy",
+    "OverrideSpawns": "Outdoor",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 8,
+  "nodes": [
+    {
+      "numbers": [
+        1,
+        0
+      ],
+      "room": "map_boss",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 104
+    },
+    {
+      "numbers": [
+        2,
+        1
+      ],
+      "room": "checkpoint",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 35
+    },
+    {
+      "numbers": [
+        7,
+        0
+      ],
+      "room": "entrance",
+      "strings": [
+        "default"
+      ],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 104
+    },
+    {
+      "numbers": [
+        3,
+        6
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 35,
+      "y": 81
+    },
+    {
+      "numbers": [
+        4,
+        3
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 35,
+      "y": 58
+    },
+    {
+      "numbers": [
+        5,
+        4
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 58
+    },
+    {
+      "numbers": [
+        5,
+        6
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 81
+    },
+    {
+      "numbers": [
+        7,
+        2
+      ],
+      "room": "checkpoint",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 104,
+      "y": 35
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [
+    {
+      "file": "Metadata/Terrain/Maps/Excavation/Rooms/Unique/exit_01.arm",
+      "suffix": [
+        "I"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Maps/Excavation/Rooms/Unique/exit_01_flipped.arm",
+      "suffix": [
+        "FR270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Maps/Excavation/Rooms/Unique/exit_02.arm",
+      "suffix": [
+        "I"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Maps/Excavation/Rooms/Unique/exit_02_flipped.arm",
+      "suffix": [
+        "FR270"
+      ]
+    }
+  ],
+  "size": [
+    6,
+    7
+  ],
+  "strings": [
+    "Metadata/Terrain/Islands/Tiles/TwilightIsland/Ledge/digsite_highground.gt",
+    "",
+    "Metadata/Terrain/Islands/Tiles/TwilightIsland/Ledge/digsite_lowground.gt"
+  ],
+  "tile_set": [
+    {
+      "file": "Metadata/Terrain/Islands/Tiles/TwilightIsland/Ledge/Ledge_StDoor_01.tdt",
+      "suffix": []
+    }
+  ],
+  "version": 25
+}

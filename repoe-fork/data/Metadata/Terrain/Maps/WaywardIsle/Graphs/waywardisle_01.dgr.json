@@ -1,0 +1,659 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Maps/WaywardIsle/master.tsi"
+  },
+  "edge_count": 13,
+  "edge_types": {
+    "IslandShoreline": "IslandShoreline #ffe4cf92\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\n0 3 1 0 0 0\n",
+    "IslandUnwalkableCliffOcean": "IslandUnwalkableCliffOcean #ff666596\nMetadata/Terrain/Islands/Tiles/Island/island_ocean.gt\nMetadata/Terrain/Islands/Tiles/Island/island_inner_cliff.gt\n0 3 1 0 0 0\n",
+    "rooms": "rooms #FF5A5A5A\nwildcard\nwildcard\n0 1 0 0 1\n"
+  },
+  "edges": [
+    {
+      "color": "#ffe4cf92",
+      "edge_type": "IslandShoreline",
+      "from": 8,
+      "path": [],
+      "to": 0,
+      "unknown": [
+        100,
+        1,
+        1,
+        "Metadata/Terrain/Gallows/Act4/4_2_1/Rooms/island_shoreline.et",
+        0,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 11,
+      "path": [],
+      "to": 0,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ffe4cf92",
+      "edge_type": "IslandShoreline",
+      "from": 1,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        1,
+        1,
+        "Metadata/Terrain/Gallows/Act4/4_2_1/Rooms/island_shoreline.et",
+        0,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 4,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 6,
+      "path": [],
+      "to": 4,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 2,
+      "path": [],
+      "to": 6,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ffe4cf92",
+      "edge_type": "IslandShoreline",
+      "from": 2,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        1,
+        1,
+        "Metadata/Terrain/Gallows/Act4/4_2_1/Rooms/island_shoreline.et",
+        0,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 10,
+      "path": [],
+      "to": 8,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 8,
+      "path": [],
+      "to": 9,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 9,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 7,
+      "path": [],
+      "to": 10,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 2,
+      "path": [],
+      "to": 5,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "I",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ff666596",
+      "edge_type": "IslandUnwalkableCliffOcean",
+      "from": 3,
+      "path": [],
+      "to": 11,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Islands/Tiles/Island/UnwalkableCliffOcean/island_unwalkable_cliff_ocean.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "combination.ecf",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Islands/Tiles/Island/island_ocean_deepwater.gt",
+    "Overlays": "overlays.toy",
+    "OverrideSpawns": "Outdoor",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 12,
+  "nodes": [
+    {
+      "numbers": [
+        0,
+        1
+      ],
+      "room": "map_boss",
+      "strings": [],
+      "transform": "R90",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 518,
+      "y": 196
+    },
+    {
+      "numbers": [
+        2
+      ],
+      "room": "entrance",
+      "strings": [
+        "default"
+      ],
+      "transform": "R270",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 242
+    },
+    {
+      "numbers": [
+        5,
+        6,
+        11
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 196,
+      "y": 58
+    },
+    {
+      "numbers": [
+        12
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 495,
+      "y": 311
+    },
+    {
+      "numbers": [
+        4,
+        3,
+        2
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 104
+    },
+    {
+      "numbers": [
+        3,
+        11
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 219,
+      "y": 127
+    },
+    {
+      "numbers": [
+        5,
+        4
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 127,
+      "y": 12
+    },
+    {
+      "numbers": [
+        9,
+        10,
+        6
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 334,
+      "y": 58
+    },
+    {
+      "numbers": [
+        8,
+        0,
+        7
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 449,
+      "y": 58
+    },
+    {
+      "numbers": [
+        8,
+        9
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 426,
+      "y": 12
+    },
+    {
+      "numbers": [
+        10,
+        7
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 357,
+      "y": 150
+    },
+    {
+      "numbers": [
+        1,
+        12
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 495,
+      "y": 288
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [],
+  "size": [
+    28,
+    14
+  ],
+  "strings": [
+    "",
+    "",
+    "Metadata/Terrain/Gallows/Act4/4_2_1/Rooms/island_beach.gt"
+  ],
+  "tile_set": [],
+  "version": 25
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "English": null,
+    "ids": [
+      "skill_grant_X_power_charges_against_normal_and_magic_monsters",
+      "skill_grant_X_power_charges_against_rare_monsters",
+      "skill_grant_X_power_charges_against_unique_monsters"
+    ],
+    "trade_stats": null,
+    "hidden": null,
+    "French": null,
+    "German": null,
+    "Japanese": null,
+    "Korean": null,
+    "Portuguese": [
+      {
+        "condition": [
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          }
+        ],
+        "format": [
+          "ignore",
+          "ignore",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "Aniquilar um monstro concede {2} [Charges|carga de poder]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "Monstros [Rarity|normais e mágicos] concedem {0} [Charges|carga de poder]\nMonstros [Rarity|raros] concedem {1} [Charges|carga de poder]\nMonstros [Rarity|únicos] concedem {2} [Charges|cargas de poder]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "Monstros [Rarity|normais e mágicos] concedem {0} [Charges|carga de poder]\nMonstros [Rarity|raros] concedem {1} [Charges|cargas de poder]\nMonstros [Rarity|únicos] concedem {2} [Charges|carga de poder]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "Monstros [Rarity|normais e mágicos] concedem {0} [Charges|cargas de poder]\nMonstros [Rarity|raros] concedem {1} [Charges|carga de poder]\nMonstros [Rarity|únicos] concedem {2} [Charges|carga de poder]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "Monstros [Rarity|normais e mágicos] concedem {0} [Charges|cargas de poder]\nMonstros [Rarity|raros] concedem {1} [Charges|carga de poder]\nMonstros [Rarity|únicos] concedem {2} [Charges|cargas de poder]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "Monstros [Rarity|normais e mágicos] concedem {0} [Charges|cargas de poder]\nMonstros [Rarity|raros] concedem {1} [Charges|cargas de poder]\nMonstros [Rarity|únicos] concedem {2} [Charges|carga de poder]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": 1,
+            "max": 1,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "Monstros [Rarity|normais e mágicos] concedem {0} [Charges|carga de poder]\nMonstros [Rarity|raros] concedem {1} [Charges|cargas de poder]\nMonstros [Rarity|únicos] concedem {2} [Charges|cargas de poder]",
+        "reminder_text": null,
+        "is_markup": null
+      },
+      {
+        "condition": [
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          },
+          {
+            "min": null,
+            "max": null,
+            "negated": null
+          }
+        ],
+        "format": [
+          "#",
+          "#",
+          "#"
+        ],
+        "index_handlers": [
+          [],
+          [],
+          []
+        ],
+        "string": "Monstros [Rarity|normais e mágicos] concedem {0} [Charges|cargas de poder]\nMonstros [Rarity|raros] concedem {1} [Charges|cargas de poder]\nMonstros [Rarity|únicos] concedem {2} [Charges|cargas de poder]",
+        "reminder_text": null,
+        "is_markup": null
+      }
+    ],
+    "Russian": null,
+    "Spanish": null,
+    "Thai": null,
+    "Traditional_Chinese": null
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Maps/Derelict/master_container.tsi"
+  },
+  "edge_count": 0,
+  "edge_types": {},
+  "edges": [],
+  "master": {
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/Maps/Derelict/Tiles/ExteriorWall/OuterGround.gt",
+    "RoomOverlap": null,
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "version": null
+  },
+  "node_count": 2,
+  "nodes": [
+    {
+      "numbers": [],
+      "room": "graph",
+      "strings": [
+        "Metadata/Terrain/Maps/Derelict/Graphs/_Downstairs_03.dgr",
+        "30",
+        "30"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 12
+    },
+    {
+      "numbers": [],
+      "room": "graph",
+      "strings": [
+        "Metadata/Terrain/Maps/Derelict/Graphs/_Upstairs_03.dgr",
+        "26",
+        "26"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 725
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "size": [
+    30,
+    57
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "version": 25
+}

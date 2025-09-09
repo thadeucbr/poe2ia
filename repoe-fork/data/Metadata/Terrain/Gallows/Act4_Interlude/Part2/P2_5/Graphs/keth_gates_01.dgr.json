@@ -1,0 +1,1151 @@
+{
+  "data": {
+    "Default%": [
+      0,
+      0,
+      0
+    ],
+    "MasterFile": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_5/master.tsi"
+  },
+  "edge_count": 16,
+  "edge_types": {
+    "CanyonRooms": "CanyonRooms #ffffac88\nMetadata/Terrain/black_inside_wall.gt\nMetadata/Terrain/black_inside_wall.gt\n0 3 0 0 0 0\n",
+    "GateCliffBorder": "GateCliffBorder #2272fc\nMetadata/Terrain/Desert/UnwalkableBorder/unwalkableborder.gt\nMetadata/Terrain/black_inside_wall.gt\n0 3 0",
+    "rooms": "rooms #FF5A5A5A\nwildcard\nwildcard\n0 1 0 0 1\n",
+    "void": "void #FF141414\nwildcard\nwildcard\n0 1 0\n"
+  },
+  "edges": [
+    {
+      "color": "#ffffac88",
+      "edge_type": "CanyonRooms",
+      "from": 0,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/DryPassage/Rooms/Canyon/CanyonRooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 8,
+      "path": [],
+      "to": 9,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 20,
+      "path": [],
+      "to": 11,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#2272fc",
+      "edge_type": "GateCliffBorder",
+      "from": 5,
+      "path": [],
+      "to": 2,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Interlude/Part2/Gates/gate_cliffborder.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 0,
+      "path": [],
+      "to": 12,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        2,
+        "Metadata/Terrain/Maps/DryPassage/Rooms/MarakethRooms.et",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#2272fc",
+      "edge_type": "GateCliffBorder",
+      "from": 4,
+      "path": [],
+      "to": 3,
+      "unknown": [
+        100,
+        1,
+        0,
+        "Metadata/Terrain/Interlude/Part2/Gates/gate_cliffborder.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 17,
+      "path": [],
+      "to": 1,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#ffffac88",
+      "edge_type": "CanyonRooms",
+      "from": 6,
+      "path": [],
+      "to": 1,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/DryPassage/Rooms/Canyon/CanyonRooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 15,
+      "path": [],
+      "to": 13,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "Metadata/Terrain/Maps/DryPassage/Rooms/MarakethRooms.et",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF5A5A5A",
+      "edge_type": "rooms",
+      "from": 13,
+      "path": [],
+      "to": 14,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Dungeon/rooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 22,
+      "path": [],
+      "to": 18,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 18,
+      "path": [],
+      "to": 19,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 23,
+      "path": [],
+      "to": 20,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 8,
+      "path": [],
+      "to": 22,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#FF141414",
+      "edge_type": "void",
+      "from": 10,
+      "path": [],
+      "to": 23,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Tools/void.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "V",
+        1
+      ]
+    },
+    {
+      "color": "#ffffac88",
+      "edge_type": "CanyonRooms",
+      "from": 6,
+      "path": [],
+      "to": 7,
+      "unknown": [
+        100,
+        0,
+        0,
+        "Metadata/Terrain/Maps/DryPassage/Rooms/Canyon/CanyonRooms.et",
+        0,
+        0,
+        0,
+        "",
+        0,
+        "",
+        0,
+        0,
+        "P",
+        "N",
+        1
+      ]
+    }
+  ],
+  "master": {
+    "AllowInteriorOverlapFixes": null,
+    "ChestData": "chests.cht",
+    "Critters": "critters.clt",
+    "Decals": "decals.dct",
+    "Doodads": "doodads.ddt",
+    "EdgeCombination": "combination.ecf",
+    "FillTiles": "random_fill_tiles.gft",
+    "MaterialsList": "materials.mtd",
+    "OuterBufferSize": null,
+    "OuterGroundType": "Metadata/Terrain/black_inside_wall.gt",
+    "RoomOverlap": null,
+    "RoomSet": "generate.rs",
+    "RoomUnitSize": null,
+    "StoreyHeight": null,
+    "TileMaterialOverrides": "material_overrides.tmo",
+    "TileSet": "tiles.tst",
+    "version": null
+  },
+  "node_count": 26,
+  "nodes": [
+    {
+      "numbers": [
+        4,
+        0
+      ],
+      "room": "passage_start",
+      "strings": [
+        "default",
+        "entrance1"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 12
+    },
+    {
+      "numbers": [
+        7,
+        6
+      ],
+      "room": "passage_end",
+      "strings": [
+        "entrance2"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 564
+    },
+    {
+      "numbers": [
+        3
+      ],
+      "room": "end",
+      "strings": [],
+      "transform": "R270",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 288,
+      "y": 81
+    },
+    {
+      "numbers": [
+        5
+      ],
+      "room": "end",
+      "strings": [],
+      "transform": "R90",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 633
+    },
+    {
+      "numbers": [
+        5
+      ],
+      "room": "end",
+      "strings": [],
+      "transform": "FR270",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 288,
+      "y": 633
+    },
+    {
+      "numbers": [
+        3
+      ],
+      "room": "end",
+      "strings": [],
+      "transform": "FR90",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 81
+    },
+    {
+      "numbers": [
+        15,
+        7
+      ],
+      "room": "block_long",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 150,
+      "y": 426
+    },
+    {
+      "numbers": [
+        0,
+        15
+      ],
+      "room": "block_long",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 150,
+      "y": 219
+    },
+    {
+      "numbers": [
+        1,
+        13
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 288,
+      "y": 426
+    },
+    {
+      "numbers": [
+        1
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 334,
+      "y": 426
+    },
+    {
+      "numbers": [
+        14
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 127,
+      "y": 265
+    },
+    {
+      "numbers": [
+        2
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 12,
+      "y": 334
+    },
+    {
+      "numbers": [
+        4
+      ],
+      "room": "hallway",
+      "strings": [],
+      "transform": "R180",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 288,
+      "y": 150
+    },
+    {
+      "numbers": [
+        9,
+        8
+      ],
+      "room": "intercept",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 357
+    },
+    {
+      "numbers": [
+        9
+      ],
+      "room": "hallway",
+      "strings": [],
+      "transform": "FI",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 288,
+      "y": 357
+    },
+    {
+      "numbers": [
+        8
+      ],
+      "room": "hallway",
+      "strings": [],
+      "transform": "FR180",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 357
+    },
+    {
+      "numbers": [],
+      "room": "mid",
+      "strings": [
+        "accessible"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 426
+    },
+    {
+      "numbers": [
+        6
+      ],
+      "room": "hallway",
+      "strings": [],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 12,
+      "y": 564
+    },
+    {
+      "numbers": [
+        10,
+        11
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 219,
+      "y": 495
+    },
+    {
+      "numbers": [
+        11
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 219,
+      "y": 541
+    },
+    {
+      "numbers": [
+        12,
+        2
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 58,
+      "y": 334
+    },
+    {
+      "numbers": [],
+      "room": "mid",
+      "strings": [
+        "accessible"
+      ],
+      "transform": "FI",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 219,
+      "y": 219
+    },
+    {
+      "numbers": [
+        13,
+        10
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 288,
+      "y": 495
+    },
+    {
+      "numbers": [
+        14,
+        12
+      ],
+      "room": "",
+      "strings": [],
+      "transform": "(best)",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "V",
+        0
+      ],
+      "x": 58,
+      "y": 265
+    },
+    {
+      "numbers": [],
+      "room": "landmark",
+      "strings": [
+        "unique1",
+        "accessible"
+      ],
+      "transform": "I",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 81,
+      "y": 288
+    },
+    {
+      "numbers": [],
+      "room": "landmark",
+      "strings": [
+        "unique1",
+        "accessible"
+      ],
+      "transform": "R180",
+      "unknown": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "N",
+        0
+      ],
+      "x": 219,
+      "y": 426
+    }
+  ],
+  "numbers": [
+    0
+  ],
+  "room_set": [
+    {
+      "file": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_5/Rooms/Canyon/canyon_st_01.arm",
+      "prefix": [
+        "//"
+      ],
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_5/Rooms/Canyon/canyon_st_02.arm",
+      "prefix": [
+        "//"
+      ],
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_5/Rooms/Canyon/canyon_st_03.arm",
+      "prefix": [
+        "//"
+      ],
+      "suffix": [
+        "I",
+        "FI"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_5/Rooms/Canyon/canyon_st_block_01.arm",
+      "suffix": []
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_5/Rooms/Canyon/canyon_st_block_02.arm",
+      "suffix": []
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_5/Rooms/Canyon/canyon_to_rooms_01.arm",
+      "prefix": [
+        "//"
+      ],
+      "suffix": []
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_5/Rooms/Canyon/canyon_to_rooms_02.arm",
+      "suffix": []
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_5/Rooms/Keth/hallway_01.arm",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_5/Rooms/Keth/hallway_02.arm",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Gallows/Act4_Interlude/Part2/P2_5/Rooms/Keth/hallway_03.arm",
+      "suffix": [
+        "I",
+        "FI",
+        "R180",
+        "FR180"
+      ]
+    }
+  ],
+  "size": [
+    15,
+    33
+  ],
+  "strings": [
+    "",
+    "",
+    ""
+  ],
+  "tile_set": [
+    {
+      "file": "Metadata/Terrain/Interlude/Part2/Gates/Gatewall_LowerGate_Closed.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "R270"
+      ]
+    },
+    {
+      "file": "Metadata/Terrain/Interlude/Part2/Gates/Gatewall_LowerGate_Closed_02.tdt",
+      "suffix": [
+        "I",
+        "R90",
+        "R180",
+        "R270"
+      ]
+    }
+  ],
+  "version": 25
+}
